@@ -2,17 +2,21 @@
   "metadata": {
     "database_version": "1.0",
     "game_version": "Path of Exile 2 Early Access 0.2.0-0.3.0",
-    "last_updated": "2025-10-23",
-    "total_spells": 45,
+    "last_updated": "2026-03-20",
+    "total_spells": 352,
     "note": "Data collected from poe2db.tw and other official sources. Level 1 and Level 20 stats provided where available."
   },
-
   "fire_spells": {
     "fireball": {
       "name": "Fireball",
       "element": "fire",
       "tier": 1,
-      "tags": ["spell", "aoe", "projectile", "fire"],
+      "tags": [
+        "spell",
+        "aoe",
+        "projectile",
+        "fire"
+      ],
       "level_1": {
         "damage_min": 8,
         "damage_max": 12,
@@ -37,12 +41,16 @@
       },
       "quality_bonus": "+(0-10)% chance to fire 2 additional Projectiles"
     },
-
     "flame_wall": {
       "name": "Flame Wall",
       "element": "fire",
       "tier": 1,
-      "tags": ["spell", "aoe", "fire", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "fire",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -70,12 +78,17 @@
       },
       "quality_bonus": "+20% more Flammability magnitude at max quality"
     },
-
     "fire_trap": {
       "name": "Fire Trap",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "duration", "damage", "aoe", "fire"],
+      "tags": [
+        "spell",
+        "duration",
+        "damage",
+        "aoe",
+        "fire"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -100,12 +113,15 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "incinerate": {
       "name": "Incinerate",
       "element": "fire",
       "tier": 1,
-      "tags": ["spell", "fire", "channeling"],
+      "tags": [
+        "spell",
+        "fire",
+        "channeling"
+      ],
       "level_1": {
         "ignite_damage_min": 12,
         "ignite_damage_max": 18,
@@ -134,12 +150,16 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "flameblast": {
       "name": "Flameblast",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "aoe", "fire", "channeling"],
+      "tags": [
+        "spell",
+        "aoe",
+        "fire",
+        "channeling"
+      ],
       "level_1": {
         "damage_min": 7,
         "damage_max": 11,
@@ -165,12 +185,16 @@
       },
       "quality_bonus": "(0-20)% more Cast Speed"
     },
-
     "firestorm": {
       "name": "Firestorm",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "aoe", "fire", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "fire",
+        "duration"
+      ],
       "level_1": {
         "damage_min": 2,
         "damage_max": 3,
@@ -198,12 +222,15 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "ember_fusillade": {
       "name": "Ember Fusillade",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "projectile", "fire"],
+      "tags": [
+        "spell",
+        "projectile",
+        "fire"
+      ],
       "level_1": {
         "damage_min": 7,
         "damage_max": 10,
@@ -230,12 +257,16 @@
       },
       "quality_bonus": "+2% damage per previous ember at max quality"
     },
-
     "rolling_magma": {
       "name": "Rolling Magma",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "projectile", "fire", "aoe"],
+      "tags": [
+        "spell",
+        "projectile",
+        "fire",
+        "aoe"
+      ],
       "level_1": {
         "damage_min": 9,
         "damage_max": 12,
@@ -260,13 +291,17 @@
       "quality_bonus": "(0-10)% more Damage with Hits for each time this Skill has Chained"
     }
   },
-
   "cold_spells": {
     "frostbolt": {
       "name": "Frostbolt",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "projectile", "aoe", "cold"],
+      "tags": [
+        "spell",
+        "projectile",
+        "aoe",
+        "cold"
+      ],
       "level_1": {
         "projectile_damage_min": 5,
         "projectile_damage_max": 8,
@@ -295,12 +330,15 @@
       },
       "quality_bonus": "Up to 20% increased projectile damage after piercing"
     },
-
     "ice_nova": {
       "name": "Ice Nova",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "aoe", "cold"],
+      "tags": [
+        "spell",
+        "aoe",
+        "cold"
+      ],
       "level_1": {
         "damage_min": 13,
         "damage_max": 20,
@@ -327,12 +365,15 @@
       },
       "quality_bonus": "Up to 20% more damage against chilled enemies"
     },
-
     "freezing_pulse": {
       "name": "Freezing Pulse",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "projectile", "cold"],
+      "tags": [
+        "spell",
+        "projectile",
+        "cold"
+      ],
       "level_1": {
         "damage_min": 16,
         "damage_max": 24,
@@ -356,12 +397,16 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "glacial_cascade": {
       "name": "Glacial Cascade",
       "element": "cold",
       "tier": 1,
-      "tags": ["attack", "melee", "aoe", "cold"],
+      "tags": [
+        "attack",
+        "melee",
+        "aoe",
+        "cold"
+      ],
       "note": "This is an ATTACK skill, not a spell",
       "level_1": {
         "attack_damage_percent": 40,
@@ -388,12 +433,16 @@
       },
       "quality_bonus": "(0-15)% of Physical damage as Cold Damage"
     },
-
     "frost_bomb": {
       "name": "Frost Bomb",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "aoe", "cold", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "cold",
+        "duration"
+      ],
       "level_1": {
         "damage_min": 7,
         "damage_max": 11,
@@ -422,12 +471,16 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "cold_snap": {
       "name": "Cold Snap",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "aoe", "cold", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "cold",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -452,12 +505,15 @@
       },
       "quality_bonus": "Unknown"
     },
-
     "comet": {
       "name": "Comet",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "aoe", "cold"],
+      "tags": [
+        "spell",
+        "aoe",
+        "cold"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -483,13 +539,17 @@
       "quality_bonus": "(0-10)% chance to repeat"
     }
   },
-
   "lightning_spells": {
     "arc": {
       "name": "Arc",
       "element": "lightning",
       "tier": 5,
-      "tags": ["spell", "projectile", "lightning", "chaining"],
+      "tags": [
+        "spell",
+        "projectile",
+        "lightning",
+        "chaining"
+      ],
       "level_1": {
         "damage_min": 1,
         "damage_max": 13,
@@ -515,12 +575,15 @@
       },
       "quality_bonus": "Chains increase by (0-2)"
     },
-
     "spark": {
       "name": "Spark",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "projectile", "lightning"],
+      "tags": [
+        "spell",
+        "projectile",
+        "lightning"
+      ],
       "level_1": {
         "damage_min": 1,
         "damage_max": 10,
@@ -548,12 +611,16 @@
       },
       "quality_bonus": "(0-30)% increased Projectile Speed"
     },
-
     "orb_of_storms": {
       "name": "Orb of Storms",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "aoe", "lightning", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "lightning",
+        "duration"
+      ],
       "level_1": {
         "damage_min": 1,
         "damage_max": 8,
@@ -582,12 +649,15 @@
       },
       "quality_bonus": "Up to +3 chains"
     },
-
     "lightning_conduit": {
       "name": "Lightning Conduit",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "aoe", "lightning"],
+      "tags": [
+        "spell",
+        "aoe",
+        "lightning"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -614,12 +684,16 @@
       },
       "quality_bonus": "(0-20)% chance to reapply Shock when consumed"
     },
-
     "ball_lightning": {
       "name": "Ball Lightning",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "projectile", "lightning", "aoe"],
+      "tags": [
+        "spell",
+        "projectile",
+        "lightning",
+        "aoe"
+      ],
       "level_1": {
         "damage_min": 1,
         "damage_max": 3,
@@ -647,12 +721,15 @@
       },
       "quality_bonus": "(0-0.4)m increased Beam range"
     },
-
     "storm_wave": {
       "name": "Storm Wave",
       "element": "lightning",
       "tier": null,
-      "tags": ["attack", "aoe", "lightning"],
+      "tags": [
+        "attack",
+        "aoe",
+        "lightning"
+      ],
       "note": "This is an ATTACK skill, not a spell",
       "level_1": {
         "attack_damage_percent": 110,
@@ -677,12 +754,15 @@
       },
       "quality_bonus": "Wave width +(0-1) metre"
     },
-
     "lightning_bolt": {
       "name": "Lightning Bolt",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "aoe", "lightning"],
+      "tags": [
+        "spell",
+        "aoe",
+        "lightning"
+      ],
       "level_1": {
         "damage_min": 3,
         "damage_max": 13,
@@ -705,12 +785,16 @@
       },
       "quality_bonus": "Up to 40% increased Shock chance"
     },
-
     "lightning_warp": {
       "name": "Lightning Warp",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "aoe", "lightning", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "lightning",
+        "duration"
+      ],
       "level_1": {
         "damage_min": 2,
         "damage_max": 30,
@@ -737,13 +821,17 @@
       "quality_bonus": "Up to 10% increased Shock magnitude"
     }
   },
-
   "chaos_spells": {
     "essence_drain": {
       "name": "Essence Drain",
       "element": "chaos",
       "tier": null,
-      "tags": ["spell", "projectile", "chaos", "dot"],
+      "tags": [
+        "spell",
+        "projectile",
+        "chaos",
+        "dot"
+      ],
       "level_1": {
         "hit_damage_min": 5,
         "hit_damage_max": 9,
@@ -768,12 +856,17 @@
       },
       "quality_bonus": "+(0-1) second to Debuff duration"
     },
-
     "contagion": {
       "name": "Contagion",
       "element": "chaos",
       "tier": null,
-      "tags": ["spell", "aoe", "chaos", "dot", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "chaos",
+        "dot",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -801,12 +894,15 @@
       },
       "quality_bonus": "Target (0-2) additional Enemies when Cast"
     },
-
     "chaos_bolt": {
       "name": "Chaos Bolt",
       "element": "chaos",
       "tier": null,
-      "tags": ["spell", "projectile", "chaos"],
+      "tags": [
+        "spell",
+        "projectile",
+        "chaos"
+      ],
       "level_1": {
         "damage_min": 5,
         "damage_max": 9,
@@ -830,12 +926,17 @@
       },
       "quality_bonus": "Up to 40% increased Projectile Speed"
     },
-
     "profane_ritual": {
       "name": "Profane Ritual",
       "element": "chaos",
       "tier": null,
-      "tags": ["spell", "aoe", "chaos", "dot", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "chaos",
+        "dot",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -864,13 +965,18 @@
       "quality_bonus": "20% chance to not destroy consumed corpses"
     }
   },
-
   "physical_spells": {
     "detonate_dead": {
       "name": "Detonate Dead",
       "element": "physical/fire",
       "tier": 7,
-      "tags": ["spell", "aoe", "physical", "fire", "detonator"],
+      "tags": [
+        "spell",
+        "aoe",
+        "physical",
+        "fire",
+        "detonator"
+      ],
       "level_1": {
         "fire_damage_min": 19,
         "fire_damage_max": 28,
@@ -894,12 +1000,16 @@
       },
       "quality_bonus": "Up to +0.4 metres explosion radius"
     },
-
     "unearth": {
       "name": "Unearth",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "projectile", "physical", "minion"],
+      "tags": [
+        "spell",
+        "projectile",
+        "physical",
+        "minion"
+      ],
       "level_1": {
         "damage_min": 4,
         "damage_max": 6,
@@ -923,12 +1033,17 @@
       },
       "quality_bonus": "Up to +5 seconds duration and +50% minion movement speed"
     },
-
     "bonestorm": {
       "name": "Bonestorm",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "aoe", "projectile", "physical", "channeling"],
+      "tags": [
+        "spell",
+        "aoe",
+        "projectile",
+        "physical",
+        "channeling"
+      ],
       "level_1": {
         "projectile_damage_min": 4,
         "projectile_damage_max": 7,
@@ -959,12 +1074,19 @@
       },
       "quality_bonus": "(0-10)% additional cast speed"
     },
-
     "bone_offering": {
       "name": "Bone Offering",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "offering", "minion", "buff", "aoe", "physical", "duration"],
+      "tags": [
+        "spell",
+        "offering",
+        "minion",
+        "buff",
+        "aoe",
+        "physical",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -989,12 +1111,15 @@
       },
       "quality_bonus": "Shielded Minions take (0-30)% less Damage for 1 second after Shield is lost"
     },
-
     "bone_cage": {
       "name": "Bone Cage",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "aoe", "physical"],
+      "tags": [
+        "spell",
+        "aoe",
+        "physical"
+      ],
       "level_1": {
         "damage_min": 10,
         "damage_max": 15,
@@ -1020,12 +1145,16 @@
       },
       "quality_bonus": "Up to +50% Pin damage bonus"
     },
-
     "bone_blast": {
       "name": "Bone Blast",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "aoe", "physical", "duration"],
+      "tags": [
+        "spell",
+        "aoe",
+        "physical",
+        "duration"
+      ],
       "level_1": {
         "damage_min": 5,
         "damage_max": 8,
@@ -1048,12 +1177,17 @@
       },
       "quality_bonus": "+(0-0.4) metres radius"
     },
-
     "soul_offering": {
       "name": "Soul Offering",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "offering", "minion", "buff", "physical"],
+      "tags": [
+        "spell",
+        "offering",
+        "minion",
+        "buff",
+        "physical"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1079,13 +1213,16 @@
       "quality_bonus": "Up to +1 second duration"
     }
   },
-
   "minion_spells": {
     "raise_zombie": {
       "name": "Raise Zombie",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "minion", "duration"],
+      "tags": [
+        "spell",
+        "minion",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1114,12 +1251,15 @@
       },
       "quality_bonus": "(0-25)% increased effect of Empowerment"
     },
-
     "summon_skeletons": {
       "name": "Summon Skeletons",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "minion", "duration"],
+      "tags": [
+        "spell",
+        "minion",
+        "duration"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1145,13 +1285,16 @@
       "quality_bonus": "Unknown"
     }
   },
-
   "meta_and_buff_spells": {
     "sigil_of_power": {
       "name": "Sigil of Power",
       "element": "meta",
       "tier": null,
-      "tags": ["spell", "aoe", "buff"],
+      "tags": [
+        "spell",
+        "aoe",
+        "buff"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1179,12 +1322,16 @@
       },
       "quality_bonus": "Up to +0.8 metres radius"
     },
-
     "mana_tempest": {
       "name": "Mana Tempest",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "buff", "lightning", "empowerment"],
+      "tags": [
+        "spell",
+        "buff",
+        "lightning",
+        "empowerment"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1210,12 +1357,17 @@
       },
       "quality_bonus": "(0-2) seconds linger after leaving"
     },
-
     "arctic_armour": {
       "name": "Arctic Armour",
       "element": "cold",
       "tier": 4,
-      "tags": ["spell", "buff", "persistent", "cold", "staged"],
+      "tags": [
+        "spell",
+        "buff",
+        "persistent",
+        "cold",
+        "staged"
+      ],
       "level_1": {
         "damage_per_stage_min": 7,
         "damage_per_stage_max": 10,
@@ -1242,13 +1394,17 @@
       "quality_bonus": "Unknown"
     }
   },
-
   "curse_spells": {
     "temporal_chains": {
       "name": "Temporal Chains",
       "element": "meta",
       "tier": null,
-      "tags": ["spell", "aoe", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1274,12 +1430,16 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "enfeeble": {
       "name": "Enfeeble",
       "element": "meta",
       "tier": null,
-      "tags": ["spell", "aoe", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1305,12 +1465,17 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "vulnerability": {
       "name": "Vulnerability",
       "element": "physical",
       "tier": null,
-      "tags": ["spell", "aoe", "physical", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "physical",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1335,12 +1500,16 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "elemental_weakness": {
       "name": "Elemental Weakness",
       "element": "meta",
       "tier": null,
-      "tags": ["spell", "aoe", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1366,12 +1535,17 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "despair": {
       "name": "Despair",
       "element": "chaos",
       "tier": null,
-      "tags": ["spell", "aoe", "chaos", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "chaos",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1396,12 +1570,17 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "conductivity": {
       "name": "Conductivity",
       "element": "lightning",
       "tier": null,
-      "tags": ["spell", "aoe", "lightning", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "lightning",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1426,12 +1605,17 @@
       },
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     },
-
     "flammability": {
       "name": "Flammability",
       "element": "fire",
       "tier": null,
-      "tags": ["spell", "aoe", "fire", "duration", "curse"],
+      "tags": [
+        "spell",
+        "aoe",
+        "fire",
+        "duration",
+        "curse"
+      ],
       "level_1": {
         "damage_min": null,
         "damage_max": null,
@@ -1458,13 +1642,17 @@
       "quality_bonus": "(0-10)% increased Curse Magnitudes"
     }
   },
-
   "herald_and_aura_spells": {
     "herald_of_ice": {
       "name": "Herald of Ice",
       "element": "cold",
       "tier": null,
-      "tags": ["spell", "buff", "herald", "cold"],
+      "tags": [
+        "spell",
+        "buff",
+        "herald",
+        "cold"
+      ],
       "note": "This is a buff skill that triggers on shatter, not a direct spell",
       "level_1": {
         "explosion_damage_percent": 70,
@@ -1491,13 +1679,18 @@
       "quality_bonus": "Up to +0.4 metres explosion radius"
     }
   },
-
   "elemental_expression": {
     "elemental_expression": {
       "name": "Elemental Expression",
       "element": "fire/cold/lightning",
       "tier": null,
-      "tags": ["spell", "trigger", "fire", "cold", "lightning"],
+      "tags": [
+        "spell",
+        "trigger",
+        "fire",
+        "cold",
+        "lightning"
+      ],
       "level_1": {
         "fire_damage_min": 8,
         "fire_damage_max": 8,
@@ -1536,6 +1729,3960 @@
         "attribute_scaling": "probability based on Str/Dex/Int"
       },
       "quality_bonus": "(0-20)% increased Cooldown Recovery Rate"
+    }
+  },
+  "scraped_skills": {
+    "acidic_concoction": {
+      "name": "Acidic Concoction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "alchemist's_boon": {
+      "name": "Alchemist's Boon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "align_fate": {
+      "name": "Align Fate",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Casting the matchingSpellbefore the next VisageEmpowersit\\nEmpoweredSpells deal30% more damage",
+      "source": "scraped"
+    },
+    "ancestral_cry": {
+      "name": "Ancestral Cry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fire AttunementMagnified Area IProlonged Duration I",
+      "source": "scraped"
+    },
+    "ancestral_spirits": {
+      "name": "Ancestral Spirits",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, Duration, Triggerable, InbuiltTrigger, CreatesMinion, Triggered, AttackInPlace",
+      "source": "scraped"
+    },
+    "ancestral_warrior_totem": {
+      "name": "Ancestral Warrior Totem",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "SummonsTotem, SummonsAttackTotem, Duration, Melee, Trappable, Mineable, Meta, Area, HasUsageCondition, RequiresCharges, ConsumesCharges, SkillConsumesEnduranceChargesOnUse",
+      "source": "scraped"
+    },
+    "apocalypse": {
+      "name": "Apocalypse",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "archmage": {
+      "name": "Archmage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "arctic_howl": {
+      "name": "Arctic Howl",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_breaker": {
+      "name": "Armour Breaker",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_piercing_rounds": {
+      "name": "Armour Piercing Rounds",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "artillery_ballista": {
+      "name": "Artillery Ballista",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "ProjectilesFromUser, Trappable, Mineable, SummonsTotem, SummonsAttackTotem, TotemsAreBallistae, UsableWhileMoving, Limit, Duration",
+      "source": "scraped"
+    },
+    "first_ascendancy:_trail_of_the_sekhemas": {
+      "name": "First Ascendancy: Trail of the Sekhemas",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "attrition": {
+      "name": "Attrition",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "axe_slash": {
+      "name": "Axe Slash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barkskin": {
+      "name": "Barkskin",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barrage": {
+      "name": "Barrage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barrier_invocation": {
+      "name": "Barrier Invocation",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "berserk": {
+      "name": "Berserk",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bind_spectre": {
+      "name": "Bind Spectre",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blasphemy": {
+      "name": "Blasphemy",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bleeding_concoction": {
+      "name": "Bleeding Concoction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blink": {
+      "name": "Blink",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blood_boil": {
+      "name": "Blood Boil",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blood_hunt": {
+      "name": "Blood Hunt",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bloodhound's_mark": {
+      "name": "Bloodhound's Mark",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "boneshatter": {
+      "name": "Boneshatter",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bow_shot": {
+      "name": "Bow Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "briarpatch": {
+      "name": "Briarpatch",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, OngoingSkill, HasReservation, Persistent, AttackInPlace, Physical, Limit, Plant, Spell, Area, AreaSpell, Duration, CreatesGroundEffect, Sustained",
+      "source": "scraped"
+    },
+    "called_shots": {
+      "name": "Called Shots",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cast_on_block": {
+      "name": "Cast on Block",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fixed a bug where the Cast on Block Skill granted by the Svalinn Unique Shield was granting the wrong amount of energy. It now grants 25 base energy on block (previously displayed 250 but actually granting 2.5).",
+      "source": "scraped"
+    },
+    "cast_on_critical": {
+      "name": "Cast on Critical",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "* We missed one! Cast on Critical now also cares about the Damage of the hit when determining how much energy to gain to prevent the use of high-crit low level skills, this should mean using lower hit frequency skills that hit harder are also now much stronger for this.",
+      "source": "scraped"
+    },
+    "cast_on_dodge": {
+      "name": "Cast on Dodge",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cast_on_elemental_ailment": {
+      "name": "Cast on Elemental Ailment",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "HasReservation, OngoingSkill, Meta, Persistent, Buff, Fire, Cold, Lightning, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers",
+      "source": "scraped"
+    },
+    "cast_on_freeze": {
+      "name": "Cast on Freeze",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Cast on Freeze, Cast on Shock and Cast on Ignite have been combined into a single gem: Cast on Elemental Ailment. This gem requires 100 Spirit, has a minimum Level of 14, and combines the energy gain conditions of all three previous gems. Existing copies of these gems will be updated to Cast on Elemental Ailments when you load the character or stash tab holding them.",
+      "source": "scraped"
+    },
+    "cast_on_ignite": {
+      "name": "Cast on Ignite",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "HasReservation, OngoingSkill, Meta, Persistent, Buff, Fire, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers",
+      "source": "scraped"
+    },
+    "cast_on_minion_death": {
+      "name": "Cast on Minion Death",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Cast on Minion Death: Now reserves 30 spirit (previously 60).",
+      "source": "scraped"
+    },
+    "cast_on_shock": {
+      "name": "Cast on Shock",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Cast on Freeze, Cast on Shock and Cast on Ignite have been combined into a single gem: Cast on Elemental Ailment. This gem requires 100 Spirit, has a minimum Level of 14, and combines the energy gain conditions of all three previous gems. Existing copies of these gems will be updated to Cast on Elemental Ailments when you load the character or stash tab holding them.",
+      "source": "scraped"
+    },
+    "charge_regulation": {
+      "name": "Charge Regulation",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charged_staff": {
+      "name": "Charged Staff",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "claw_stab": {
+      "name": "Claw Stab",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cluster_grenade": {
+      "name": "Cluster Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Consumes15Heatif possible to\\nGain50% of damage asFiredamage",
+      "source": "scraped"
+    },
+    "combat_frenzy": {
+      "name": "Combat Frenzy",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "consecrate": {
+      "name": "Consecrate",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Duration, Triggerable, Area, AreaSpell, Nova, Cascadable, UsableWhileMoving, CreatesGroundEffect",
+      "source": "scraped"
+    },
+    "convalescence": {
+      "name": "Convalescence",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crafting": {
+      "name": "Crafting",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cross_slash": {
+      "name": "Cross Slash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crossbow_shot": {
+      "name": "Crossbow Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cull_the_weak": {
+      "name": "Cull The Weak",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt]_crushing_earth": {
+      "name": "[DNT] Crushing Earth",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Damage, Area, Trappable, Totemable, Mineable, Multicastable, Triggerable, Physical, Cascadable, Unleashable, AreaSpell, Invokable, Duration, CreatesGroundEffect",
+      "source": "scraped"
+    },
+    "dagger_stab": {
+      "name": "Dagger Stab",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dark_effigy": {
+      "name": "Dark Effigy",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "SummonsTotem, Trappable, Mineable, Multicastable, Duration, UsableWhileMoving, Chaos, Limit",
+      "source": "scraped"
+    },
+    "dark_pact": {
+      "name": "Dark Pact",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "decompose": {
+      "name": "Decompose",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Damage, Area, Trappable, Totemable, Mineable, AreaSpell, Chaos, UsableWhileMoving, Duration, CreatesGroundEffect, Limit, TargetsDestructibleCorpses, Fire, Triggerable",
+      "source": "scraped"
+    },
+    "defiance_banner": {
+      "name": "Defiance Banner",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "demon_form": {
+      "name": "Demon Form",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Demon Form, granted by the Demonic Possession Notable Passive Skill, no longer disables your weapons or has its own weapon set. It no longer grants level of all Spell Skills while in Demon Form, or increased Spell Damage per Demonflame. It now grants 3% more Spell Damage per Demonflame, and Quality now provides +0-10% increased Cast Speed while in Demon Form (previously had no Quality). Life Loss per second from Demonflame is now lower beyond Skill Gem 20.Demon Form, granted by the Demonic Posse",
+      "source": "scraped"
+    },
+    "desecrated_modifiers": {
+      "name": "Desecrated Modifiers",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "(4—8)% increasedSpellDamage(5—10)% increasedEvasion RatingDefencesCaster",
+      "source": "scraped"
+    },
+    "detonating_arrow": {
+      "name": "Detonating Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Gain120% of Damage as extraFireDamage per Stage\\nMaximum4Stages",
+      "source": "scraped"
+    },
+    "devour": {
+      "name": "Devour",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "discipline": {
+      "name": "Discipline",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "disengage": {
+      "name": "Disengage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dread_banner": {
+      "name": "Dread Banner",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "earthquake": {
+      "name": "Earthquake",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Melee, Duration, Slam, Triggerable, Totemable, CreatesGroundEffect, AttackInPlace, Limit",
+      "source": "scraped"
+    },
+    "earthshatter": {
+      "name": "Earthshatter",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Melee, Slam, Duration, Totemable, CreatesFissure, CanCreateStoneElementals, Limit",
+      "source": "scraped"
+    },
+    "electrocuting_arrow": {
+      "name": "Electrocuting Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_conflux": {
+      "name": "Elemental Conflux",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "OngoingSkill, HasReservation, Buff, Persistent, Duration, Lightning, Cold, Fire, AttackInPlace",
+      "source": "scraped"
+    },
+    "elemental_invocation": {
+      "name": "Elemental Invocation",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "HasReservation, OngoingSkill, Meta, Persistent, Buff, CanHaveMultipleOngoingSkillInstances, Invocation, Fire, Cold, Lightning, GeneratesEnergy, Triggers, AttackInPlace, Cooldown",
+      "source": "scraped"
+    },
+    "elemental_storm": {
+      "name": "Elemental Storm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Duration, Trappable, Totemable, Mineable, Triggerable, Damage, Area, Orb, AreaSpell, Triggered, InbuiltTrigger, Cooldown, Fire, Cold, Lightning",
+      "source": "scraped"
+    },
+    "elemental_sundering": {
+      "name": "Elemental Sundering",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Spear, Melee, Fire, Cold, Lightning, Nova, SkillConsumesFreeze, SkillConsumesIgnite, SkillConsumesShock",
+      "source": "scraped"
+    },
+    "elemental_surge": {
+      "name": "Elemental Surge",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Fire, Cold, Lightning, Triggered, InbuiltTrigger, Triggerable, NoAttackOrCastTime, CannotConsumeCharges, AttackInPlace",
+      "source": "scraped"
+    },
+    "emergency_reload": {
+      "name": "Emergency Reload",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "encase_in_jade": {
+      "name": "Encase in Jade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "endgame": {
+      "name": "Endgame",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "enervating_nova": {
+      "name": "Enervating Nova",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "entangle": {
+      "name": "Entangle",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Physical, Unleashable, Area, Duration, Limit, UsableWhileMoving, Sustained, CreatesFissure, Damage, Plant, Triggerable, Totemable, Trappable, Nature",
+      "source": "scraped"
+    },
+    "escape_shot": {
+      "name": "Escape Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eternal_rage": {
+      "name": "Eternal Rage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "explosive_concoction": {
+      "name": "Explosive Concoction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fire AttunementMagnified Area IElemental Armament I",
+      "source": "scraped"
+    },
+    "explosive_grenade": {
+      "name": "Explosive Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Consumes15Heatif possible to\\nGain50% of damage asFiredamage",
+      "source": "scraped"
+    },
+    "explosive_shot": {
+      "name": "Explosive Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "explosive_spear": {
+      "name": "Explosive Spear",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Projectile, ProjectilesFromUser, Attack, Area, UsableWhileMoving, Spear, Barrageable, RangedAttack, Fire, UsableWhileMounted, CreatesGroundEffect, Duration, Limit, CannotChain, ConsumesCharges, SkillConsumesFrenzyChargesOnUse, DetonatesAfterTime, ProjectilesNumberModifiersNotApplied, Detonator",
+      "source": "scraped"
+    },
+    "exsanguinate": {
+      "name": "Exsanguinate",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eye_of_winter": {
+      "name": "Eye of Winter",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Eye of Winter: When passing through an allied Flame Wall, the Eye itself and now all the shards it subsequently released will receive the Flame Wall's added Fire Damage. Shard Projectiles now travel 25% further. Eye Projectiles no longer releases a burst of shards at the end of its flight. The frequency the Eye Projectiles fires projectiles has been increased by roughly 35%. Each use of the Skill now deals 900% more Damage with its first Hit against each enemy. Now has a cast time of 1.4 seconds",
+      "source": "scraped"
+    },
+    "falling_thunder": {
+      "name": "Falling Thunder",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fangs_of_frost": {
+      "name": "Fangs of Frost",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, MeleeSingleTarget, Melee, Area, Spear, Cold, SkillConsumesParried, CreatesGroundEffect, AttackInPlace",
+      "source": "scraped"
+    },
+    "feast_of_flesh": {
+      "name": "Feast of Flesh",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "feral_invocation": {
+      "name": "Feral Invocation",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ferocious_roar": {
+      "name": "Ferocious Roar",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fire_spell_on_hit": {
+      "name": "Fire Spell on Hit",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "HasReservation, OngoingSkill, Meta, Persistent, Buff, Fire, CanHaveMultipleOngoingSkillInstances, GeneratesEnergy, Triggers, AttackInPlace",
+      "source": "scraped"
+    },
+    "firebolt": {
+      "name": "Firebolt",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Projectile, ProjectilesFromUser, Spell, Damage, Area, Trappable, Totemable, Mineable, Multicastable, Triggerable, Fire, Unleashable, AreaSpell, Invokable, UsableWhileMoving",
+      "source": "scraped"
+    },
+    "flail_strike": {
+      "name": "Flail Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "flame_breath": {
+      "name": "Flame Breath",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Damage, Shapeshift, Attack, Fire, Area, Duration, CreatesGroundEffect, UsableWhileMoving, Sustained, ConsumesRage, Shapeshift, Wyvern, Channel, Cooldown, ManualCooldownConsumption, SkillConsumesPowerChargesOnUse, ConsumesCharges, Detonator",
+      "source": "scraped"
+    },
+    "flash_grenade": {
+      "name": "Flash Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "flicker_strike": {
+      "name": "Flicker Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "forge_hammer": {
+      "name": "Forge Hammer",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Melee, Slam, Fire, Duration, Sustained, CreatesFissure, Limit, UsableWhileMoving, ManualCooldownConsumption, Cooldown, CanCreateStoneElementals",
+      "source": "scraped"
+    },
+    "fortifying_cry": {
+      "name": "Fortifying Cry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fragmentation_rounds": {
+      "name": "Fragmentation Rounds",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "freezing_mark": {
+      "name": "Freezing Mark",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "freezing_salvo": {
+      "name": "Freezing Salvo",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "freezing_shards": {
+      "name": "Freezing Shards",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The following skills found as inherent skills on Wands and Staves now deal approximately 12% more Damage from skill level 11 onwards: Bone Blast, Chaos Bolt, Decompose, Firebolt, Freezing Shards, Lightning Bolt, Power Siphon, and Solar Orb.",
+      "source": "scraped"
+    },
+    "frost_darts": {
+      "name": "Frost Darts",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Multishot IProjectile Acceleration IRapid Casting I",
+      "source": "scraped"
+    },
+    "frost_wall": {
+      "name": "Frost Wall",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frozen_locus": {
+      "name": "Frozen Locus",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Melee, Attack, Duration, Cold, QuarterstaffSkill, CreatesGroundEffect, IceCrystal, CanCancelActions, Area, ToggleSpawnedObjectTargetable_DefaultOn, Limit",
+      "source": "scraped"
+    },
+    "fulminating_concoction": {
+      "name": "Fulminating Concoction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fulmination": {
+      "name": "Fulmination",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, Aura, OngoingSkill, Persistent, AffectsPresence, Damage, NoAttackOrCastTime, Lightning",
+      "source": "scraped"
+    },
+    "furious_slam": {
+      "name": "Furious Slam",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fury_of_the_mountain": {
+      "name": "Fury of the Mountain",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Melee, Area, Slam, Channel, Duration, Shapeshift, Bear, ConsumesRage, CreatesFissure, Sustained",
+      "source": "scraped"
+    },
+    "galvanic_field": {
+      "name": "Galvanic Field",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "galvanic_shards": {
+      "name": "Galvanic Shards",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Galvanic Shards: Ammunition no longer has 50% less Reload Speed, and now has 1 Bolt loaded per clip (previously 5). Projectile Attack Damage is now 21-54% at Gem levels 5-20 (previously 14-31%), while the Beam Attack Damage is 107-272% (previously 71-156%). Now Fires 8 fragments per shot (previously 6), and has a Mana Cost of 10-48 at Gem levels 5-20 (previously 13-61). Quality now provides Fires +0-2 fragments per shot, instead of +0-2 Bolts loaded per clip.",
+      "source": "scraped"
+    },
+    "gas_arrow": {
+      "name": "Gas Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, RangedAttack, Projectile, ProjectilesFromUser, Barrageable, Duration, UsableWhileMoving, CanBecomeArrowRain, Area, Chaos, Fire, Bow, GroundTargetedProjectile, CreatesGroundEffect, Limit",
+      "source": "scraped"
+    },
+    "gas_grenade": {
+      "name": "Gas Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, RangedAttack, Area, ProjectileNumber, ProjectileSpeed, Cooldown, Duration, Grenade, Chaos, Fire, UsableWhileMoving, CreatesGroundEffect, Limit, Projectile, DetonatesAfterTime",
+      "source": "scraped"
+    },
+    "gathering_storm": {
+      "name": "Gathering Storm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Channel, Travel, PerfectTiming, Lightning, Area, Melee, CreatesGroundEffect, Duration, CannotSpiritStrike, QuarterstaffSkill",
+      "source": "scraped"
+    },
+    "gems": {
+      "name": "Gems",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Herald of Ash(1)Buff,Persistent,AoE,Fire,Duration,HeraldBoneshatter(1)Attack,AoE,Melee,StrikeEarthquake(1)Attack,AoE,Melee,Slam,DurationRolling Slam(1)Attack,AoE,Melee,SlamArmour Breaker(3)Attack,AoE,Melee,Strike,PhysicalInfernal Cry(3)Warcry,AoE,Trigger,Fire,Duration,NovaShield Charge(3)Attack,AoE,Melee,Physical,Channelling,TravelShockwave Totem(3)Attack,Totem,AoE,Melee,Slam,Duration,NovaHerald of Ash(4)Buff,Persistent,AoE,Fire,Duration,HeraldIron Ward(4)Buff,Persistent,AoE,Physical,NovaMagma B",
+      "source": "scraped"
+    },
+    "ghost_dance": {
+      "name": "Ghost Dance",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "glacial_bolt": {
+      "name": "Glacial Bolt",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "glacial_lance": {
+      "name": "Glacial Lance",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "grim_feast": {
+      "name": "Grim Feast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hailstorm_rounds": {
+      "name": "Hailstorm Rounds",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The per-target hit limits on Firestorm, Icestorm, Rain of Arrows and Hailstorm Rounds are now displayed.Hailstorm Rounds: Now stores 40-50 (previously 20-25) bolts at Gem level 11-20 . Now has an Attack Damage of 132-228% (previously 146-254%) at Gem levels 11-20. Now has 150% more reload speed (previously 100%). Now has equal Magnitude of Chill inflicted as Freeze Buildup.",
+      "source": "scraped"
+    },
+    "hammer_of_the_gods": {
+      "name": "Hammer of the Gods",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hand_of_chayula": {
+      "name": "Hand of Chayula",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heart_of_ice": {
+      "name": "Heart of Ice",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "herald_of_ash": {
+      "name": "Herald of Ash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, CausesBurning, Area, DamageOverTime, Fire, Herald, Duration, OngoingSkill, Persistent, AttackInPlace",
+      "source": "scraped"
+    },
+    "herald_of_blood": {
+      "name": "Herald of Blood",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "OngoingSkill, HasReservation, Buff, Persistent, Herald, UseGlobalStats, Area, Attack, Physical, SkillConsumesBleeding, NoAttackOrCastTime, AttackInPlace",
+      "source": "scraped"
+    },
+    "herald_of_plague": {
+      "name": "Herald of Plague",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "herald_of_thunder": {
+      "name": "Herald of Thunder",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, Area, Lightning, Herald, Attack, OngoingSkill, Persistent, NoAttackOrCastTime, AttackInPlace",
+      "source": "scraped"
+    },
+    "hexblast": {
+      "name": "Hexblast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "high_velocity_rounds": {
+      "name": "High Velocity Rounds",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hypothermia": {
+      "name": "Hypothermia",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ice-tipped_arrows": {
+      "name": "Ice-Tipped Arrows",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Ice Fragments (created by skills such as from Escape Shot and Ice-Tipped Arrows) are now only able to hit each enemy once per group of Fragments created.Ice-Tipped Arrows is now offered as a Tier V Skill Gem.Ice-Tipped Arrows: The Cooldown on Ice Fragments is now 150ms (from 300ms), Now Fires 5 Ice Fragments per Empowered Attack (from 3), and now deals 85-187% of Attack Damage (previously 64-131%). Now has a duration of 20 seconds (previously 8). Ice Fragments Explosion radius is now 1.8 metres ",
+      "source": "scraped"
+    },
+    "ice_shards": {
+      "name": "Ice Shards",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ice_shot": {
+      "name": "Ice Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ice_strike": {
+      "name": "Ice Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "impurity": {
+      "name": "Impurity",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "incendiary_shot": {
+      "name": "Incendiary Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Incendiary Shot: Now has Ignites you Inflict with this Skill are 200% faster, and also now has 30% increased Ignite Duration for each Pellet that hits a Target. Now inflicts 300% more Flammability (previously 100%). Quality now provides 0-15% increased Ignite Duration for each Fragment that hits a Target, instead of 0-20% increased Ignite Magnitude.Rapid Shot: No longer has a delay before firing bolts, or 50% less reload speed. It now has 100 Maximum Ammunition at all Gem levels (previously 50-8",
+      "source": "scraped"
+    },
+    "inevitable_agony": {
+      "name": "Inevitable Agony",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "infernal_cry": {
+      "name": "Infernal Cry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Deals10% moreFireDamage per 1Powerof explodingCorpse",
+      "source": "scraped"
+    },
+    "into_the_breach": {
+      "name": "Into the Breach",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "iron_ward": {
+      "name": "Iron Ward",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "items": {
+      "name": "Items",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kelari,_the_tainted_sands": {
+      "name": "Kelari,_the_Tainted_Sands",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kelari's_deception": {
+      "name": "Kelari's Deception",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kelari's_judgment": {
+      "name": "Kelari's Judgment",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kelari's_malediction": {
+      "name": "Kelari's Malediction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, CreatesMinion, Persistent, HasReservation, MinionsAreUndamagable, OngoingSkill, TargetsDestructibleCorpses, TargetsDestructibleRareCorpses, AttackInPlace, Duration",
+      "source": "scraped"
+    },
+    "keywords": {
+      "name": "Keywords",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "killing_palm": {
+      "name": "Killing Palm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "leap_slam": {
+      "name": "Leap Slam",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_remnants": {
+      "name": "Life Remnants",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lightning_arrow": {
+      "name": "Lightning Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fires beams at up to2additional Enemies near the target",
+      "source": "scraped"
+    },
+    "lightning_rod": {
+      "name": "Lightning Rod",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lightning_spear": {
+      "name": "Lightning Spear",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lineage_support_gems": {
+      "name": "Lineage Support Gems",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lingering_illusion": {
+      "name": "Lingering Illusion",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "liquid_emotions": {
+      "name": "Liquid Emotions",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "living_bomb": {
+      "name": "Living Bomb",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Rapid Casting IConcentrated AreaProlonged Duration I",
+      "source": "scraped"
+    },
+    "lunar_assault": {
+      "name": "Lunar Assault",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lunar_blessing": {
+      "name": "Lunar Blessing",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mace_strike": {
+      "name": "Mace Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "magma_barrier": {
+      "name": "Magma Barrier",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, OngoingSkill, HasReservation, Fire, Persistent, GeneratesCharges",
+      "source": "scraped"
+    },
+    "magnetic_salvo": {
+      "name": "Magnetic Salvo",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Magnetic Salvo now deals 100-140% of Attack Damage with Impact at Gem levels 13-20 (previously 89-125%), and 155-218% of Attack Damage with Explosion at Gem levels 13-20 (previously 177-250%). It now Fires up to 8 Missiles at all Gem levels (previously 14-17 at Gem levels 13-20). Quality now provides +0-4 Missiles, instead of 0-20% more Projectile Damage.",
+      "source": "scraped"
+    },
+    "malice": {
+      "name": "Malice",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mana_drain": {
+      "name": "Mana Drain",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mana_remnants": {
+      "name": "Mana Remnants",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, TotemCastsAlone, OngoingSkill, Persistent, GeneratesRemnants, AttackInPlace",
+      "source": "scraped"
+    },
+    "manifest_weapon": {
+      "name": "Manifest Weapon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, CreatesMinion, Persistent, HasReservation, Companion, MinionsAreUndamagable, CreatesCompanion",
+      "source": "scraped"
+    },
+    "mantra_of_destruction": {
+      "name": "Mantra of Destruction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "meditate": {
+      "name": "Meditate",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mirage_archer": {
+      "name": "Mirage Archer",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mirage_deadeye": {
+      "name": "Mirage Deadeye",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mirror_of_refraction": {
+      "name": "Mirror of Refraction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "modifiers": {
+      "name": "Modifiers",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "molten_blast": {
+      "name": "Molten Blast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Projectile, ProjectilesFromUser, Damage, Area, Trappable, Totemable, Triggerable, Fire, AttackInPlace",
+      "source": "scraped"
+    },
+    "moment_of_vulnerability": {
+      "name": "Moment of Vulnerability",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mortar_cannon": {
+      "name": "Mortar Cannon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "SummonsTotem, SummonsAttackTotem, Duration, Trappable, Mineable, Meta, Limit, Grenade, TotemsAreBallistae, SummonsAttackTotem, UsableWhileMoving",
+      "source": "scraped"
+    },
+    "navira's_fracturing": {
+      "name": "Navira's Fracturing",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "navira's_oasis": {
+      "name": "Navira's Oasis",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "navira's_well": {
+      "name": "Navira's Well",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "oil_barrage": {
+      "name": "Oil Barrage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Projectile, ProjectilesFromUser, Damage, Area, RangedAttack, Channel, Shapeshift, Wyvern, ConsumesCharges, SkillConsumesPowerChargesOnUse, CreatesGroundEffect, Sustained",
+      "source": "scraped"
+    },
+    "oil_grenade": {
+      "name": "Oil Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, RangedAttack, Area, ProjectileNumber, ProjectileSpeed, Cooldown, Duration, Grenade, Fire, UsableWhileMoving, CreatesGroundEffect, DetonatesAfterTime, Projectile",
+      "source": "scraped"
+    },
+    "overwhelming_presence": {
+      "name": "Overwhelming Presence",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pain_offering": {
+      "name": "Pain Offering",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Offering, Minion, Buff, Duration, Barrageable, UsableWhileMoving, CreatesMinion, Limit, Area, Triggerable",
+      "source": "scraped"
+    },
+    "parry": {
+      "name": "Parry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "perfect_strike": {
+      "name": "Perfect Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fire AttunementEternal Flame IWindow of Opportunity I",
+      "source": "scraped"
+    },
+    "permafrost_bolts": {
+      "name": "Permafrost Bolts",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "plague_bearer": {
+      "name": "Plague Bearer",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "plasma_blast": {
+      "name": "Plasma Blast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "poisonburst_arrow": {
+      "name": "Poisonburst Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pounce": {
+      "name": "Pounce",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "power_siphon": {
+      "name": "Power Siphon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The following skills found as inherent skills on Wands and Staves now deal approximately 12% more Damage from skill level 11 onwards: Bone Blast, Chaos Bolt, Decompose, Firebolt, Freezing Shards, Lightning Bolt, Power Siphon, and Solar Orb.",
+      "source": "scraped"
+    },
+    "primal_strikes": {
+      "name": "Primal Strikes",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "punch": {
+      "name": "Punch",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "purity_of_fire": {
+      "name": "Purity of Fire",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, Aura, OngoingSkill, Persistent, Fire, AffectsPresence, AttackInPlace",
+      "source": "scraped"
+    },
+    "purity_of_ice": {
+      "name": "Purity of Ice",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "purity_of_lightning": {
+      "name": "Purity of Lightning",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "quarterstaff_strike": {
+      "name": "Quarterstaff Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "quest": {
+      "name": "Quest",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "+5% Fire Resistance or +5 Strength+5% Cold Resistance or +5 Dexterity+5% Lightning Resistance or +5 Intelligence",
+      "source": "scraped"
+    },
+    "raging_spirits": {
+      "name": "Raging Spirits",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "FireAreaSpellssummon a Spirit per1.5metres of radius\\nProjectilesfromFireSpellssummon a Spirit on hit",
+      "source": "scraped"
+    },
+    "rain_of_arrows": {
+      "name": "Rain of Arrows",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fires150% more Arrows if aFrenzy Chargewas consumed",
+      "source": "scraped"
+    },
+    "raise_shield": {
+      "name": "Raise Shield",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rake": {
+      "name": "Rake",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rampage": {
+      "name": "Rampage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Melee, Area, Channel, Shapeshift, Bear, Slam, Travel, CreatesGroundEffect, ConsumesRage, Sustained",
+      "source": "scraped"
+    },
+    "rapid_assault": {
+      "name": "Rapid Assault",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rapid_shot": {
+      "name": "Rapid Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Rapid Shot: No longer has a delay before firing bolts, or 50% less reload speed. It now has 100 Maximum Ammunition at all Gem levels (previously 50-87) and 30-45 Maximum Heat at Gem levels 5-20 (previously 17-24). It now deals 37-94% of Attack Damage at Gem levels 5-20 (previously 21-47%). Quality now grants +0-15 Maximum Heat (previously +0-5). Heat no longer grants Rapid Shot Damage gained as Fire. Instead, reaching Maximum Heat prevents you from using the skill for 10 seconds. It now generate",
+      "source": "scraped"
+    },
+    "ravenous_swarm": {
+      "name": "Ravenous Swarm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, HasReservation, OngoingSkill, Persistent, Limit, Duration, Minion, CreatesMinion, Physical, Chaos, AttackInPlace",
+      "source": "scraped"
+    },
+    "reap": {
+      "name": "Reap",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "reaper's_invocation": {
+      "name": "Reaper's Invocation",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "forge_recipe": {
+      "name": "Forge recipe",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "resonating_shield": {
+      "name": "Resonating Shield",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rhoa_mount": {
+      "name": "Rhoa Mount",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, CreatesMinion, HasReservation, Persistent, Buff, Companion, CreatesCompanion, AttackInPlace",
+      "source": "scraped"
+    },
+    "ritual_sacrifice": {
+      "name": "Ritual Sacrifice",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rolling_slam": {
+      "name": "Rolling Slam",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ruzhan's_fury": {
+      "name": "Ruzhan's Fury",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnMassFusillade",
+      "source": "scraped"
+    },
+    "ruzhan's_reckoning": {
+      "name": "Ruzhan's Reckoning",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnMeteor",
+      "source": "scraped"
+    },
+    "ruzhan's_trap": {
+      "name": "Ruzhan's Trap",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnFlameRunes",
+      "source": "scraped"
+    },
+    "sacrifice": {
+      "name": "Sacrifice",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The As the Whispers Ask Notable Passive Skill has been removed, and the As the Whispers Demand Notable now also grants the Ritual Sacrifice Skill.The Eldritch Empowerment Notable Passive Skill no longer provides Non-Channelling Spells cost an additional 3% of Maximum Energy Shield, Non-Channelling Spells deal 30% more Damage, or Spending Energy Shield does not interrupt Recharge. Instead, it now provides Spells deal 30% more Damage when Sacrificing Energy Shield, Sacrifice 5% of maximum Energy S",
+      "source": "scraped"
+    },
+    "savage_fury": {
+      "name": "Savage Fury",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "scavenged_plating": {
+      "name": "Scavenged Plating",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "seismic_cry": {
+      "name": "Seismic Cry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shard_scavenger": {
+      "name": "Shard Scavenger",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "OngoingSkill, HasReservation, Buff, Persistent, Cold, Lightning, Physical, Fire, Duration, AttackInPlace",
+      "source": "scraped"
+    },
+    "shattering_concoction": {
+      "name": "Shattering Concoction",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shattering_palm": {
+      "name": "Shattering Palm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shield_charge": {
+      "name": "Shield Charge",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shield_wall": {
+      "name": "Shield Wall",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Wall, Duration, RequiresShield, Physical, Area, NonWeaponAttack, Melee, CanCreateStoneElementals, Limit",
+      "source": "scraped"
+    },
+    "shockburst_rounds": {
+      "name": "Shockburst Rounds",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shockchain_arrow": {
+      "name": "Shockchain Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shockwave_totem": {
+      "name": "Shockwave Totem",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "SummonsTotem, SummonsAttackTotem, Trappable, Mineable, Limit, Duration, CannotCreateJaggedGround, UsableWhileShapeshifted",
+      "source": "scraped"
+    },
+    "siege_ballista": {
+      "name": "Siege Ballista",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "ProjectilesFromUser, Trappable, Mineable, SummonsTotem, SummonsAttackTotem, TotemsAreBallistae, UsableWhileMoving, Limit, Duration",
+      "source": "scraped"
+    },
+    "siege_cascade": {
+      "name": "Siege Cascade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Siege Cascade: Impact now deals 94-145% of Attack Damage at Gem levels 13-20 (previously 59-91%), while the Explosion now deals 352-543% of Attack Damage (previously 258-398%). No longer deals 200% more Damage against Immobilised Enemies. No longer has a hidden 100% less Stun Buildup against Enemies, converts 80% of Physical Damage to Fire Damage, or has the Payoff and Fire Gem tags. Payload radius is now 0.4 metres (previously 0.5), while the Bolt explosion radius is now 0.8 metres (previously ",
+      "source": "scraped"
+    },
+    "siphon_elements": {
+      "name": "Siphon Elements",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "5% chance to spawn aFireRemnanton\\nIgnitinga non-Ignited target",
+      "source": "scraped"
+    },
+    "siphoning_strike": {
+      "name": "Siphoning Strike",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "skeletal_arsonist": {
+      "name": "Skeletal Arsonist",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Fire, CommandableMinion, Detonator",
+      "source": "scraped"
+    },
+    "skeletal_brute": {
+      "name": "Skeletal Brute",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Physical, CommandableMinion",
+      "source": "scraped"
+    },
+    "skeletal_cleric": {
+      "name": "Skeletal Cleric",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation",
+      "source": "scraped"
+    },
+    "skeletal_frost_mage": {
+      "name": "Skeletal Frost Mage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Cold, CommandableMinion",
+      "source": "scraped"
+    },
+    "skeletal_reaver": {
+      "name": "Skeletal Reaver",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Physical, CommandableMinion",
+      "source": "scraped"
+    },
+    "skeletal_sniper": {
+      "name": "Skeletal Sniper",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Physical, Chaos, Fire, CommandableMinion",
+      "source": "scraped"
+    },
+    "skeletal_storm_mage": {
+      "name": "Skeletal Storm Mage",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Lightning, CommandableMinion",
+      "source": "scraped"
+    },
+    "skeletal_warrior": {
+      "name": "Skeletal Warrior",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, MinionsCanExplode, CreatesMinion, CreatesUndeadMinion, CreatesSkeletonMinion, HasReservation, Persistent, MultipleReservation, Physical",
+      "source": "scraped"
+    },
+    "snap": {
+      "name": "Snap",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Damage, Area, Trappable, Totemable, Mineable, Multicastable, Triggerable, Cold, Fire, Lightning, Cascadable, AreaSpell, SkillConsumesFreeze, SkillConsumesIgnite, SkillConsumesShock, UsableWhileMoving, Unleashable, GeneratesRemnants, GeneratesInfusion, Cooldown, ManualCooldownConsumption",
+      "source": "scraped"
+    },
+    "snipe": {
+      "name": "Snipe",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "sniper's_mark": {
+      "name": "Sniper's Mark",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "solar_orb": {
+      "name": "Solar Orb",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Damage, Fire, Area, Triggerable, Trappable, Mineable, Totemable, AreaSpell, Orb, Duration, UsableWhileMoving, Limit, Sustained, Unleashable",
+      "source": "scraped"
+    },
+    "sorcery_ward": {
+      "name": "Sorcery Ward",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Aegis, Fire, Cold, Lightning, Buff, OngoingSkill, Persistent, HasReservation, AttackInPlace",
+      "source": "scraped"
+    },
+    "soulrend": {
+      "name": "Soulrend",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spear_stab": {
+      "name": "Spear Stab",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spear_throw": {
+      "name": "Spear Throw",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spear_of_solaris": {
+      "name": "Spear of Solaris",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Fire AttunementMagnified Area IElemental Armament I",
+      "source": "scraped"
+    },
+    "spearfield": {
+      "name": "Spearfield",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spell_totem": {
+      "name": "Spell Totem",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "SummonsTotem, Duration, Trappable, Mineable, Meta, Limit, HasUsageCondition, RequiresCharges, ConsumesCharges, SkillConsumesEnduranceChargesOnUse, SkillConsumesPowerChargesOnUse",
+      "source": "scraped"
+    },
+    "spellslinger": {
+      "name": "Spellslinger",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spiral_volley": {
+      "name": "Spiral Volley",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spirit_gems": {
+      "name": "Spirit Gems",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Herald of Ash(4)Buff,Persistent,AoE,Fire,Duration,HeraldIron Ward(4)Buff,Persistent,AoE,Physical,NovaMagma Barrier(4)Buff,Attack,Persistent,AoE,Melee,Trigger,FireScavenged Plating(4)Buff,Persistent,Physical,DurationOverwhelming Presence(8)Buff,Persistent,AuraTime of Need(8)Buff,Persistent,DurationBerserk(14)Buff,PersistentEternal Rage(14)Buff,Persistent",
+      "source": "scraped"
+    },
+    "staggering_palm": {
+      "name": "Staggering Palm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stampede": {
+      "name": "Stampede",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Melee, Area, Slam, Travel, CreatesGroundEffect, Duration, Jumping",
+      "source": "scraped"
+    },
+    "storm_lance": {
+      "name": "Storm Lance",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Projectile, ProjectilesFromUser, Lightning, Damage, Attack, Area, UsableWhileMoving, Spear, Barrageable, RangedAttack, UsableWhileMounted, Sustained, Limit, Duration, ConsumesCharges, SkillConsumesFrenzyChargesOnUse, CreatesGroundEffect",
+      "source": "scraped"
+    },
+    "stormblast_bolts": {
+      "name": "Stormblast Bolts",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stormcaller_arrow": {
+      "name": "Stormcaller Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "summon_infernal_hound": {
+      "name": "Summon Infernal Hound",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "MinionsIgniteEnemies within a radius of2.5metres as though dealt BaseFireDamage equal to20% of Minion's Maximum Life",
+      "source": "scraped"
+    },
+    "sunder": {
+      "name": "Sunder",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Melee, Slam, Totemable, ConsumesFullyBrokenArmour, CreatesFissure, Duration",
+      "source": "scraped"
+    },
+    "supercharged_slam": {
+      "name": "Supercharged Slam",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "supporting_fire": {
+      "name": "Supporting Fire",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, CreatesMinion, HasReservation, Persistent, CommandableMinion, MinionsAreUndamagable",
+      "source": "scraped"
+    },
+    "sword_slash": {
+      "name": "Sword Slash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tame_beast": {
+      "name": "Tame Beast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "* Fixed a bug where Summon Spectre, Tame Beast, and Disciple of Varashta's Ruzhan could not be supported by Spell Echo or Spell Cascade.",
+      "source": "scraped"
+    },
+    "temper_weapon": {
+      "name": "Temper Weapon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tempest_bell": {
+      "name": "Tempest Bell",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tempest_flurry": {
+      "name": "Tempest Flurry",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "temporal_rift": {
+      "name": "Temporal Rift",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Cooldown, HasReservation, Buff, Persistent, OngoingSkill, PersistentShowsCastTime, FixedCastTime, AttackInPlace",
+      "source": "scraped"
+    },
+    "thrashing_vines": {
+      "name": "Thrashing Vines",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thunderous_leap": {
+      "name": "Thunderous Leap",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thunderstorm": {
+      "name": "Thunderstorm",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "time_freeze": {
+      "name": "Time Freeze",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Magnified Area IRapid Casting IProlonged Duration I",
+      "source": "scraped"
+    },
+    "time_snap": {
+      "name": "Time Snap",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "time_of_need": {
+      "name": "Time of Need",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tornado": {
+      "name": "Tornado",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tornado_shot": {
+      "name": "Tornado Shot",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "toxic_domain": {
+      "name": "Toxic Domain",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Area, Duration, Chaos, DetonatesAfterTime, Buff, Cooldown, Attack, NoAttackOrCastTime, Physical, Plant",
+      "source": "scraped"
+    },
+    "toxic_growth": {
+      "name": "Toxic Growth",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The jumps performed when using Escape Shot and Toxic Growth now allow you to jump over enemies and small amounts of terrain. Vaulting Impact will also receive this change at a later date.Toxic Growth now requires more Stored Poison to reach maximum Radius and Damage, and more Stored Poison to expire faster. Pustule Duration time is now 15 seconds (previously 6). Stored Poison now adds up to +1.5 metres to base Explosion Radius (previously +1). Now Fires 6 Arrows (previously 8), and Quality now p",
+      "source": "scraped"
+    },
+    "trail_of_caltrops": {
+      "name": "Trail of Caltrops",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "trinity": {
+      "name": "Trinity",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "OngoingSkill, HasReservation, Buff, Persistent, Lightning, Cold, Fire, AttackInPlace",
+      "source": "scraped"
+    },
+    "twister": {
+      "name": "Twister",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unbound_avatar": {
+      "name": "Unbound Avatar",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Buff, Cooldown, Instant, Fire, Cold, Lightning, InstantNoRepeatWhenHeld, InstantShiftAttackForLeftMouse, Duration, HasUsageCondition",
+      "source": "scraped"
+    },
+    "unleash": {
+      "name": "Unleash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "The Supporting Fire Skill granted by Unleash Hell! Notable Passive Skill has been updated: Command: Death From Above Cooldown is now 20 seconds (previously 40). Now fires a Volley every 0.75 seconds (previously every 2 seconds). Now fires 6 total Volleys (previously 4). Now has 14 metre width (previously 7.5 metre width). Attack Damage is now 763% (previously 1140%).Fixed a bug where Unleash could not support Unearth.",
+      "source": "scraped"
+    },
+    "vaulting_impact": {
+      "name": "Vaulting Impact",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "vine_arrow": {
+      "name": "Vine Arrow",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "void_illusion": {
+      "name": "Void Illusion",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "volatile_dead": {
+      "name": "Volatile Dead",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Damage, Area, Trappable, Totemable, Mineable, Multicastable, Triggerable, Fire, Cascadable, Unleashable, AreaSpell, UsableWhileMoving, TargetsDestructibleCorpses",
+      "source": "scraped"
+    },
+    "volcanic_fissure": {
+      "name": "Volcanic Fissure",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Area, Melee, Slam, Fire, Duration, Sustained, CreatesFissure, Limit, AttackInPlace",
+      "source": "scraped"
+    },
+    "volcano": {
+      "name": "Volcano",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Spell, Area, Fire, Duration, Projectile, Trappable, Totemable, Mineable, Damage, Channel, Projectile, AreaSpell, UsableWhileMoving, Limit, Sustained, GamepadDeflectable",
+      "source": "scraped"
+    },
+    "voltaic_grenade": {
+      "name": "Voltaic Grenade",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "voltaic_mark": {
+      "name": "Voltaic Mark",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "walking_calamity": {
+      "name": "Walking Calamity",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Attack, Buff, Duration, UsableWhileMoving, HasUsageCondition, Shapeshift, Bear, Area, Fire",
+      "source": "scraped"
+    },
+    "war_banner": {
+      "name": "War Banner",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wave_of_frost": {
+      "name": "Wave of Frost",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "waystone": {
+      "name": "Waystone",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Monsters deal(15—20)% of Damage as Extra Fire28% increased number ofMagicMonsters15% increasedWaystonesfound in Area",
+      "source": "scraped"
+    },
+    "whirling_assault": {
+      "name": "Whirling Assault",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "whirling_slash": {
+      "name": "Whirling Slash",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "whirlwind_lance": {
+      "name": "Whirlwind Lance",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wind_blast": {
+      "name": "Wind Blast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wind_dancer": {
+      "name": "Wind Dancer",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wind_serpent's_fury": {
+      "name": "Wind Serpent's Fury",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wing_blast": {
+      "name": "Wing Blast",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wither": {
+      "name": "Wither",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "withering_presence": {
+      "name": "Withering Presence",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wolf_pack": {
+      "name": "Wolf Pack",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "Minion, HasReservation, Persistent, Physical, Companion, CreatesCompanion, CreatesMinion, AttackInPlace",
+      "source": "scraped"
+    },
+    "poedb": {
+      "name": "PoEDB",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "patreon": {
+      "name": "patreon",
+      "element": "unknown",
+      "tier": 1,
+      "tags": [],
+      "level_1": {
+        "mana_cost": 10,
+        "cast_time": 1.0
+      },
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
     }
   }
 }

@@ -2,156 +2,186 @@
   "metadata": {
     "game": "Path of Exile 2",
     "version": "0.3.0 (The Third Edict)",
-    "last_updated": "2025-10-23",
+    "last_updated": "2026-03-20",
     "total_support_gems": 414,
     "total_lineage_support_gems": 39,
-    "notes": "Support gems in PoE2 use a tier-based system (Tier 1-5+). Higher tiers provide better values and sometimes additional effects. As of patch 0.3.0, players can now use multiple copies of the same support gem across different skills."
+    "notes": "Support gems in PoE2 use a tier-based system (Tier 1-5+). Higher tiers provide better values and sometimes additional effects. As of patch 0.3.0, players can now use multiple copies of the same support gem across different skills.",
+    "total_supports": 639
   },
-
   "support_gems": {
     "controlled_destruction": {
       "name": "Controlled Destruction",
       "type": "spell_support",
       "tier": 1,
-      "tags": ["Critical", "Spell"],
+      "tags": [
+        "Critical",
+        "Spell"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": null,
       "effects": {
         "more_spell_damage": 30,
         "cannot_crit": true
       },
-      "compatible_with": ["spell"],
+      "compatible_with": [
+        "spell"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "added_fire_damage": {
       "name": "Added Fire Damage",
       "type": "attack_support",
       "tier": 1,
-      "tags": ["Attack", "Fire"],
+      "tags": [
+        "Attack",
+        "Fire"
+      ],
       "spirit_cost": 0,
       "effects": {
         "gain_damage_as_fire": 25,
         "less_cold_damage": 50,
         "less_lightning_damage": 50
       },
-      "compatible_with": ["attack"],
+      "compatible_with": [
+        "attack"
+      ],
       "requirements": {
         "str": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "added_cold_damage": {
       "name": "Added Cold Damage",
       "type": "attack_support",
       "tier": 1,
-      "tags": ["Attack", "Cold"],
+      "tags": [
+        "Attack",
+        "Cold"
+      ],
       "spirit_cost": 0,
       "effects": {
         "gain_damage_as_cold": 25,
         "less_fire_damage": 50,
         "less_lightning_damage": 50
       },
-      "compatible_with": ["attack"],
+      "compatible_with": [
+        "attack"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "added_lightning_damage": {
       "name": "Added Lightning Damage",
       "type": "attack_support",
       "tier": 1,
-      "tags": ["Attack", "Lightning"],
+      "tags": [
+        "Attack",
+        "Lightning"
+      ],
       "spirit_cost": 0,
       "effects": {
         "gain_damage_as_lightning": 25,
         "less_fire_damage": 50,
         "less_cold_damage": 50
       },
-      "compatible_with": ["attack"],
+      "compatible_with": [
+        "attack"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "chain_i": {
       "name": "Chain I",
       "type": "projectile_support",
       "tier": 1,
-      "tags": ["Chaining", "Projectile"],
+      "tags": [
+        "Chaining",
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "effects": {
         "additional_chains": 1,
         "more_chains": 100,
         "less_damage": 50
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "pierce_i": {
       "name": "Pierce I",
       "type": "projectile_support",
       "tier": 1,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "effects": {
         "projectiles_pierce": true,
         "less_damage_after_pierce": 30
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "fork": {
       "name": "Fork",
       "type": "projectile_support",
       "tier": 3,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 110,
       "effects": {
         "projectiles_fork": true,
         "less_damage_after_fork": 50
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 3 Uncut Support Skill Gem"
     },
-
     "faster_projectiles": {
       "name": "Faster Projectiles",
       "type": "projectile_support",
       "tier": 1,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
         "increased_projectile_speed": 40
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
@@ -159,90 +189,105 @@
       "acquisition": "Tier 1 Uncut Support Skill Gem",
       "notes": "Projectile speed does NOT increase range in PoE2"
     },
-
     "slower_projectiles": {
       "name": "Slower Projectiles",
       "type": "projectile_support",
       "tier": 1,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "effects": {
         "less_projectile_speed": 30
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "projectile_acceleration_i": {
       "name": "Projectile Acceleration I",
       "type": "projectile_support",
       "tier": 1,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
         "more_projectile_speed": 40
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "projectile_acceleration_ii": {
       "name": "Projectile Acceleration II",
       "type": "projectile_support",
       "tier": 4,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
         "more_projectile_speed": 40,
         "pierce_chance": 40
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 4 Uncut Support Skill Gem"
     },
-
     "ricochet_i": {
       "name": "Ricochet I",
       "type": "projectile_support",
       "tier": 2,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "effects": {
         "chain_from_terrain_chance": 20
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
       },
       "acquisition": "Tier 2 Uncut Support Skill Gem"
     },
-
     "ricochet_iii": {
       "name": "Ricochet III",
       "type": "projectile_support",
       "tier": 5,
-      "tags": ["Projectile"],
+      "tags": [
+        "Projectile"
+      ],
       "spirit_cost": 0,
       "effects": {
         "chain_from_terrain": true,
         "always_pierce": true,
         "additional_projectiles_grant_chains": true
       },
-      "compatible_with": ["projectile"],
+      "compatible_with": [
+        "projectile"
+      ],
       "requirements": {
         "dex": 5,
         "level": 1
@@ -250,12 +295,14 @@
       "acquisition": "Tier 5 Uncut Support Skill Gem",
       "notes": "Modifiers granting additional projectiles instead cause projectiles to chain an additional time from terrain per projectile"
     },
-
     "spell_echo": {
       "name": "Spell Echo",
       "type": "spell_support",
       "tier": 2,
-      "tags": ["Spell", "AoE"],
+      "tags": [
+        "Spell",
+        "AoE"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 150,
       "effects": {
@@ -263,20 +310,26 @@
         "less_cast_speed": 30,
         "echoes_more_aoe": 30
       },
-      "compatible_with": ["spell"],
-      "restrictions": ["Cannot support Channelling skills", "Cannot support Remote skills"],
+      "compatible_with": [
+        "spell"
+      ],
+      "restrictions": [
+        "Cannot support Channelling skills",
+        "Cannot support Remote skills"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 2 Uncut Support Skill Gem"
     },
-
     "unleash": {
       "name": "Unleash",
       "type": "spell_support",
       "tier": 1,
-      "tags": ["Spell"],
+      "tags": [
+        "Spell"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 150,
       "effects": {
@@ -284,38 +337,46 @@
         "seal_gain_frequency": "Every 200% of cast time",
         "less_damage_on_reoccur": 50
       },
-      "compatible_with": ["spell"],
-      "restrictions": ["Cannot support Channelling skills"],
+      "compatible_with": [
+        "spell"
+      ],
+      "restrictions": [
+        "Cannot support Channelling skills"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "critical_damage": {
       "name": "Critical Damage",
       "type": "damage_support",
       "tier": 3,
-      "tags": ["Critical"],
+      "tags": [
+        "Critical"
+      ],
       "spirit_cost": 0,
       "effects": {
         "increased_critical_damage": 100,
         "less_damage": 20
       },
-      "compatible_with": ["any_hit"],
+      "compatible_with": [
+        "any_hit"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 3 Uncut Support Skill Gem"
     },
-
     "inevitable_critical": {
       "name": "Inevitable Critical",
       "type": "critical_support",
       "tier": 2,
-      "tags": ["Critical"],
+      "tags": [
+        "Critical"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
@@ -323,7 +384,9 @@
         "max_crit_chance_increase": 100,
         "crit_chance_lost_on_crit": true
       },
-      "compatible_with": ["any_hit"],
+      "compatible_with": [
+        "any_hit"
+      ],
       "requirements": {
         "str": 5,
         "level": 1
@@ -331,30 +394,34 @@
       "acquisition": "Tier 2 Uncut Support Skill Gem",
       "notes": "Gains 25% increased Critical Strike Chance each second, up to 100%. Lost when skill critically hits."
     },
-
     "elemental_focus": {
       "name": "Elemental Focus",
       "type": "elemental_support",
       "tier": 3,
-      "tags": ["Elemental"],
+      "tags": [
+        "Elemental"
+      ],
       "spirit_cost": 0,
       "effects": {
         "more_elemental_damage": 25,
         "cannot_inflict_ailments": true
       },
-      "compatible_with": ["any_hit"],
+      "compatible_with": [
+        "any_hit"
+      ],
       "requirements": {
         "int": 5,
         "level": 1
       },
       "acquisition": "Tier 3 Uncut Support Skill Gem"
     },
-
     "brutality_i": {
       "name": "Brutality I",
       "type": "physical_support",
       "tier": 1,
-      "tags": ["Physical"],
+      "tags": [
+        "Physical"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
@@ -362,44 +429,60 @@
         "no_chaos_damage": true,
         "no_elemental_damage": true
       },
-      "compatible_with": ["any_damage"],
+      "compatible_with": [
+        "any_damage"
+      ],
       "requirements": {
         "str": 5,
         "level": 1
       },
       "acquisition": "Tier 1 Uncut Support Skill Gem"
     },
-
     "ancestral_call_i": {
       "name": "Ancestral Call I",
       "type": "melee_support",
       "tier": 4,
-      "tags": ["Attack", "Melee", "Strike"],
+      "tags": [
+        "Attack",
+        "Melee",
+        "Strike"
+      ],
       "spirit_cost": 0,
       "cost_multiplier": 120,
       "effects": {
         "ancestral_boost_frequency": "Once every 5 seconds"
       },
-      "compatible_with": ["strike", "melee"],
-      "restrictions": ["Cannot support Channelled Skills", "Does not modify Skills used by Minions"],
+      "compatible_with": [
+        "strike",
+        "melee"
+      ],
+      "restrictions": [
+        "Cannot support Channelled Skills",
+        "Does not modify Skills used by Minions"
+      ],
       "requirements": {
         "str": 5,
         "level": 1
       },
       "acquisition": "Tier 4 Uncut Support Skill Gem"
     },
-
     "archmage": {
       "name": "Archmage",
       "type": "spirit_gem",
       "tier": 3,
-      "tags": ["Spell", "Lightning", "Spirit"],
+      "tags": [
+        "Spell",
+        "Lightning",
+        "Spirit"
+      ],
       "spirit_cost": 0,
       "effects": {
         "extra_lightning_per_100_mana": 4,
         "additional_mana_cost_percent": "6.1-8"
       },
-      "compatible_with": ["spell_non_channelling"],
+      "compatible_with": [
+        "spell_non_channelling"
+      ],
       "requirements": {
         "int": "4-157",
         "level": "1-90"
@@ -408,414 +491,5369 @@
       "notes": "Non-Channelling Spells cost additional mana and gain extra Lightning damage based on maximum Mana. Updated to 4% from 3% in Patch 0.3.0"
     }
   },
-
   "lineage_support_gems": {
     "zahrokhs_refrain": {
       "name": "Zarokh's Refrain",
       "type": "lineage_support",
-      "tags": ["Spell", "Echo"],
+      "tags": [
+        "Spell",
+        "Echo"
+      ],
       "effects": {
         "spells_echo_twice": true,
         "cooldown_added": true
       },
-      "compatible_with": ["spell_aoe"],
-      "restrictions": ["Cannot support Channelling skills", "Cannot support Remote skills", "Cannot support skills with Cooldown", "Cannot support Triggered skills"],
+      "compatible_with": [
+        "spell_aoe"
+      ],
+      "restrictions": [
+        "Cannot support Channelling skills",
+        "Cannot support Remote skills",
+        "Cannot support skills with Cooldown",
+        "Cannot support Triggered skills"
+      ],
       "acquisition": "Zarokh, the Temporal (Trial of the Sekhemas floor 4) - Rare drop",
       "notes": "Supports Spells that affect an area around you or a target location. Supported Spells echo twice."
     },
-
     "rakiatas_flow": {
       "name": "Rakiata's Flow",
       "type": "lineage_support",
-      "tags": ["Elemental", "Resistance"],
+      "tags": [
+        "Elemental",
+        "Resistance"
+      ],
       "effects": {
         "invert_enemy_resistances": true
       },
-      "compatible_with": ["damaging_hits"],
+      "compatible_with": [
+        "damaging_hits"
+      ],
       "acquisition": "Manoki, the Chosen (The Jade Isles) - Anomaly boss",
       "notes": "Supports Skills that can cause Damaging Hits, causing those Hits to treat Enemy Elemental Resistances as inverted."
     },
-
     "garukhans_resolve": {
       "name": "Garukhan's Resolve",
       "type": "lineage_support",
-      "tags": ["Attack", "Movement"],
+      "tags": [
+        "Attack",
+        "Movement"
+      ],
       "effects": {
         "requires_movement": "20 meters",
         "bifurcate_crit_chance": true
       },
-      "compatible_with": ["attack_unconditional"],
-      "restrictions": ["Cannot support Skills with Cooldown", "Cannot support Triggered skills", "Does not modify skills used by Minions"],
+      "compatible_with": [
+        "attack_unconditional"
+      ],
+      "restrictions": [
+        "Cannot support Skills with Cooldown",
+        "Cannot support Triggered skills",
+        "Does not modify skills used by Minions"
+      ],
       "acquisition": "Zahmir, the Blade Sovereign (Sacred Reservoir) - Anomaly boss",
       "notes": "Guarantees a lucky roll on critical strikes. Supported Skills can only be used after moving a certain distance."
     },
-
     "uruks_smelting": {
       "name": "Uruk's Smelting",
       "type": "lineage_support",
-      "tags": ["Physical", "Armour Break"],
+      "tags": [
+        "Physical",
+        "Armour Break"
+      ],
       "effects": {
         "break_significantly_more_armour": true,
         "increased_physical_damage_on_break": 40
       },
-      "compatible_with": ["physical_damage"],
+      "compatible_with": [
+        "physical_damage"
+      ],
       "acquisition": "Global drop (Tier 6+ Waystones)",
       "notes": "Enhances physical damage by breaking armor. Targets take up to 40% increased physical damage when armor fully breaks."
     },
-
     "ailiths_chimes": {
       "name": "Ailith's Chimes",
       "type": "lineage_support",
-      "tags": ["Combo", "Power Charge"],
+      "tags": [
+        "Combo",
+        "Power Charge"
+      ],
       "effects": {
         "power_charge_chance_on_combo": true
       },
-      "compatible_with": ["combo_skills"],
+      "compatible_with": [
+        "combo_skills"
+      ],
       "acquisition": "Global drop (Tier 6+ Waystones)",
       "notes": "Supports Skills that can expend Combo. Chance to gain Power Charges based on Combo expended."
     },
-
     "ahns_citadel": {
       "name": "Ahn's Citadel",
       "type": "lineage_support",
-      "tags": ["Wall", "Fissure"],
+      "tags": [
+        "Wall",
+        "Fissure"
+      ],
       "effects": {
         "walls_along_fissure": true,
         "reduced_damage": true,
         "reduced_aoe": true
       },
-      "compatible_with": ["wall_skills"],
+      "compatible_with": [
+        "wall_skills"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports skills that create walls in a line, causing them to instead be created along a Fissure."
     },
-
     "arjuns_medal": {
       "name": "Arjun's Medal",
       "type": "lineage_support",
-      "tags": ["Crossbow"],
+      "tags": [
+        "Crossbow"
+      ],
       "effects": {
         "reload_all_on_kill_chance": true
       },
-      "compatible_with": ["crossbow"],
+      "compatible_with": [
+        "crossbow"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Crossbow Skills. Chance to load a bolt into all Crossbow Ammunition on kill."
     },
-
     "atziris_allure": {
       "name": "Atziri's Allure",
       "type": "lineage_support",
-      "tags": ["Curse"],
+      "tags": [
+        "Curse"
+      ],
       "effects": {
         "ignore_curse_limit": true,
         "curse_reflected": true
       },
-      "compatible_with": ["curse"],
+      "compatible_with": [
+        "curse"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Curse Skills. Curses ignore the usual Curse Limit, but are reflected back to you."
     },
-
     "arakaalis_lust": {
       "name": "Arakaali's Lust",
       "type": "lineage_support",
-      "tags": ["Poison"],
+      "tags": [
+        "Poison"
+      ],
       "effects": {
         "increased_damage_per_poison": true
       },
-      "compatible_with": ["hits"],
+      "compatible_with": [
+        "hits"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports any Skill that Hits Enemies. Deals increasingly higher damage the more Poisons are on the target."
     },
-
     "arbiters_ignition": {
       "name": "Arbiter's Ignition",
       "type": "lineage_support",
-      "tags": ["Fire", "Spell"],
+      "tags": [
+        "Fire",
+        "Spell"
+      ],
       "effects": {
         "chance_flame_archon_on_ignite": true
       },
-      "compatible_with": ["fire_spell"],
+      "compatible_with": [
+        "fire_spell"
+      ],
       "acquisition": "Arbiter of Ash (Endgame boss)",
       "notes": "Supports Fire Spell Skills. Chance to gain Flame Archon when Igniting."
     },
-
     "diallas_desire": {
       "name": "Dialla's Desire",
       "type": "lineage_support",
-      "tags": ["Quality", "Level"],
+      "tags": [
+        "Quality",
+        "Level"
+      ],
       "effects": {
         "increased_level": true,
         "increased_quality": true,
         "reduced_cost": true,
         "reduced_reservation": true
       },
-      "compatible_with": ["any_with_levels"],
+      "compatible_with": [
+        "any_with_levels"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports any Skill which has levels, increasing the level and Quality, while reducing cost and Reservation."
     },
-
     "doedres_undoing": {
       "name": "Doedre's Undoing",
       "type": "lineage_support",
-      "tags": ["Curse", "Chaos"],
+      "tags": [
+        "Curse",
+        "Chaos"
+      ],
       "effects": {
         "create_hazardous_areas": true,
         "explode_on_entry": true,
         "chaos_damage_based_on_int": true
       },
-      "compatible_with": ["curse"],
+      "compatible_with": [
+        "curse"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Curse Skills. Creates Hazardous areas which explode when Enemies enter, Cursing and dealing Chaos Damage based on Intelligence."
     },
-
     "eshs_radiance": {
       "name": "Esh's Radiance",
       "type": "lineage_support",
-      "tags": ["Chaos", "Shock"],
+      "tags": [
+        "Chaos",
+        "Shock"
+      ],
       "effects": {
         "extra_chaos_damage": true,
         "chaos_contributes_to_shock": true
       },
-      "compatible_with": ["damaging_hits"],
+      "compatible_with": [
+        "damaging_hits"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Skills that can cause Damaging Hits. Grants extra Chaos damage and causes Chaos damage to Contribute to Shock."
     },
-
     "ixchels_torment": {
       "name": "Ixchel's Torment",
       "type": "lineage_support",
-      "tags": ["Trigger"],
+      "tags": [
+        "Trigger"
+      ],
       "effects": {
         "modifies_trigger_skills": true
       },
-      "compatible_with": ["trigger_skills"],
+      "compatible_with": [
+        "trigger_skills"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Skills that Trigger other Skills."
     },
-
     "brutus_brain": {
       "name": "Brutus' Brain",
       "type": "lineage_support",
-      "tags": ["Minion"],
+      "tags": [
+        "Minion"
+      ],
       "effects": {
         "minions_cannot_damage": true,
         "minions_cannot_take_damage": true
       },
-      "compatible_with": ["minion_skills"],
+      "compatible_with": [
+        "minion_skills"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports skills which create Minions. Those Minions are unable to deal or take Damage."
     },
-
     "daressos_passion": {
       "name": "Daresso's Passion",
       "type": "lineage_support",
-      "tags": ["Banner"],
+      "tags": [
+        "Banner"
+      ],
       "effects": {
         "significantly_less_glory_required": true
       },
-      "compatible_with": ["banner"],
+      "compatible_with": [
+        "banner"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Banner Skills, causing them to require significantly less Glory to use."
     },
-
     "pietys_mercy": {
       "name": "Piety's Mercy",
       "type": "lineage_support",
-      "tags": ["Hit"],
+      "tags": [
+        "Hit"
+      ],
       "effects": {
         "hits_cannot_kill": true
       },
-      "compatible_with": ["damaging_hits"],
+      "compatible_with": [
+        "damaging_hits"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Skills that cause Damaging Hits. Hits from Supported Skills cannot kill Enemies."
     },
-
     "vilentas_propulsion": {
       "name": "Vilenta's Propulsion",
       "type": "lineage_support",
-      "tags": ["Spell", "Projectile"],
+      "tags": [
+        "Spell",
+        "Projectile"
+      ],
       "effects": {
         "cast_speed_applies_to_projectile_speed": true
       },
-      "compatible_with": ["spell_projectile"],
+      "compatible_with": [
+        "spell_projectile"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports Spell Skills that fire Projectiles. Increases and reductions to cast speed also apply to Projectile speed."
     },
-
     "amanamus_tithe": {
       "name": "Amanamu's Tithe",
       "type": "lineage_support",
-      "tags": ["Minion", "Abyssal"],
+      "tags": [
+        "Minion",
+        "Abyssal"
+      ],
       "effects": {
         "gain_abyssal_modifier_on_minion_death": true
       },
-      "compatible_with": ["persistent_minion"],
+      "compatible_with": [
+        "persistent_minion"
+      ],
       "acquisition": "Abyssal Depths/Dark Domain",
       "notes": "Supports Persistent Minion Skills. Chance when Minions die to gain an Abyssal Monster Modifier."
     },
-
     "ataluis_bloodletting": {
       "name": "Atalui's Bloodletting",
       "type": "lineage_support",
-      "tags": ["Life", "Mana"],
+      "tags": [
+        "Life",
+        "Mana"
+      ],
       "effects": {
         "mana_cost_to_life_cost": true
       },
-      "compatible_with": ["any_skill"],
+      "compatible_with": [
+        "any_skill"
+      ],
       "acquisition": "Global drop",
       "notes": "Supports any Skill, turning a portion of its Mana cost into a Life cost."
     },
-
     "einhaars_beastrite": {
       "name": "Einhar's Beastrite",
       "type": "lineage_support",
-      "tags": ["Beast"],
+      "tags": [
+        "Beast"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     },
-
     "kalisas_crescendo": {
       "name": "Kalisa's Crescendo",
       "type": "lineage_support",
-      "tags": ["Unknown"],
+      "tags": [
+        "Unknown"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     },
-
     "romiras_requital": {
       "name": "Romira's Requital",
       "type": "lineage_support",
-      "tags": ["Unknown"],
+      "tags": [
+        "Unknown"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     },
-
     "rathas_assault": {
       "name": "Ratha's Assault",
       "type": "lineage_support",
-      "tags": ["Unknown"],
+      "tags": [
+        "Unknown"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     },
-
     "siones_temper": {
       "name": "Sione's Temper",
       "type": "lineage_support",
-      "tags": ["Unknown"],
+      "tags": [
+        "Unknown"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     },
-
     "tecrods_revenge": {
       "name": "Tecrod's Revenge",
       "type": "lineage_support",
-      "tags": ["Unknown"],
+      "tags": [
+        "Unknown"
+      ],
       "effects": {
         "unknown": true
       },
-      "compatible_with": ["unknown"],
+      "compatible_with": [
+        "unknown"
+      ],
       "acquisition": "Global drop"
     }
   },
-
   "additional_support_gems_by_category": {
     "tier_1_gems_partial_list": [
-      "Abiding Hex", "Ablation", "Acrimony", "Adhesive Grenades I", "Aftershock I",
-      "Alignment I", "Ambrosia", "Ambush", "Ammo Conservation I", "Ancestral Call I",
-      "Arcane Surge", "Armour Break I", "Armour Demolisher I", "Armour Explosion",
-      "Arms Length", "Astral Projection", "Auto Reload", "Barbs I", "Battershout",
-      "Behead I", "Bidding", "Biting Frost", "Bleed I", "Blind I", "Blindside",
-      "Blood in the Eyes", "Bloodlust", "Bludgeon", "Bone Shrapnel", "Boundless Energy I",
-      "Branching Fissures I", "Break Endurance", "Break Posture", "Brink I", "Brutality I",
-      "Burgeon I", "Burning Inscription", "Bursting Plague", "Cadence", "Caltrops",
-      "Cannibalism I", "Capacitor", "Catharsis", "Chain I", "Chaos Infusion",
-      "Chaos Mastery", "Chaotic Freeze", "Charge Profusion I", "Charged Shots I",
-      "Charm Bounty", "Clarity I", "Clash", "Close Combat I", "Cold Attunement",
-      "Cold Exposure", "Cold Mastery", "Cold Penetration", "Combo Finisher I",
-      "Commandment", "Commiserate", "Compressed Duration I", "Concentrated Area",
-      "Concoct I", "Conduction", "Considered Casting", "Controlled Destruction",
-      "Cooldown Recovery I", "Coolheaded", "Corpse Conservation", "Corrosion",
-      "Corrupting Cry I", "Coursing Current", "Crackling Barrier", "Crazed Minions",
-      "Crescendo I", "Crystalline Shards", "Culling Strike I", "Culmination I",
-      "Cursed Ground", "Danse Macabre", "Dauntless", "Dazing Cry", "Dazzle",
-      "Deadly Herald", "Deadly Poison I", "Deathmarch", "Decaying Hex", "Deep Cuts I",
-      "Deep Freeze", "Defy I", "Delayed Gratification", "Delayed Reaction",
-      "Deliberation", "Derange", "Desperation", "Despoiler", "Devastate",
-      "Direstrike I", "Discombobulate", "Dissapate", "Double Barrel I",
-      "Drain Ailments", "Durability", "Efficiency I", "Electrocute",
-      "Elemental Armament I", "Elemental Army", "Elemental Discharge", "Elemental Focus",
-      "Embitter", "Energy Barrier", "Energy Retention", "Enormity", "Enraged Warcry I",
-      "Escalating Poison", "Essence Harvest", "Eternal Flame I", "Excise",
-      "Excoriate", "Execrate", "Execute I", "Expanse", "Exploit Weakness",
-      "Extraction", "Feeding Frenzy I", "Ferocity", "Fiery Death", "Figurehead",
-      "Fire Attunement", "Fire Exposure", "Fire Mastery", "Fire Penetration I",
-      "First Blood", "Fist of War I", "Flamepierce", "Flow", "Fluke",
-      "Focused Curse", "Font of Blood", "Font of Mana", "Font of Rage", "Fork",
-      "Fortress I", "Freezefork", "Fresh Clip I", "Frost Nexus", "Frostfire",
-      "Gambleshot", "Glaciation", "Glacier", "Greatwood I", "Haemocrystals"
+      "Abiding Hex",
+      "Ablation",
+      "Acrimony",
+      "Adhesive Grenades I",
+      "Aftershock I",
+      "Alignment I",
+      "Ambrosia",
+      "Ambush",
+      "Ammo Conservation I",
+      "Ancestral Call I",
+      "Arcane Surge",
+      "Armour Break I",
+      "Armour Demolisher I",
+      "Armour Explosion",
+      "Arms Length",
+      "Astral Projection",
+      "Auto Reload",
+      "Barbs I",
+      "Battershout",
+      "Behead I",
+      "Bidding",
+      "Biting Frost",
+      "Bleed I",
+      "Blind I",
+      "Blindside",
+      "Blood in the Eyes",
+      "Bloodlust",
+      "Bludgeon",
+      "Bone Shrapnel",
+      "Boundless Energy I",
+      "Branching Fissures I",
+      "Break Endurance",
+      "Break Posture",
+      "Brink I",
+      "Brutality I",
+      "Burgeon I",
+      "Burning Inscription",
+      "Bursting Plague",
+      "Cadence",
+      "Caltrops",
+      "Cannibalism I",
+      "Capacitor",
+      "Catharsis",
+      "Chain I",
+      "Chaos Infusion",
+      "Chaos Mastery",
+      "Chaotic Freeze",
+      "Charge Profusion I",
+      "Charged Shots I",
+      "Charm Bounty",
+      "Clarity I",
+      "Clash",
+      "Close Combat I",
+      "Cold Attunement",
+      "Cold Exposure",
+      "Cold Mastery",
+      "Cold Penetration",
+      "Combo Finisher I",
+      "Commandment",
+      "Commiserate",
+      "Compressed Duration I",
+      "Concentrated Area",
+      "Concoct I",
+      "Conduction",
+      "Considered Casting",
+      "Controlled Destruction",
+      "Cooldown Recovery I",
+      "Coolheaded",
+      "Corpse Conservation",
+      "Corrosion",
+      "Corrupting Cry I",
+      "Coursing Current",
+      "Crackling Barrier",
+      "Crazed Minions",
+      "Crescendo I",
+      "Crystalline Shards",
+      "Culling Strike I",
+      "Culmination I",
+      "Cursed Ground",
+      "Danse Macabre",
+      "Dauntless",
+      "Dazing Cry",
+      "Dazzle",
+      "Deadly Herald",
+      "Deadly Poison I",
+      "Deathmarch",
+      "Decaying Hex",
+      "Deep Cuts I",
+      "Deep Freeze",
+      "Defy I",
+      "Delayed Gratification",
+      "Delayed Reaction",
+      "Deliberation",
+      "Derange",
+      "Desperation",
+      "Despoiler",
+      "Devastate",
+      "Direstrike I",
+      "Discombobulate",
+      "Dissapate",
+      "Double Barrel I",
+      "Drain Ailments",
+      "Durability",
+      "Efficiency I",
+      "Electrocute",
+      "Elemental Armament I",
+      "Elemental Army",
+      "Elemental Discharge",
+      "Elemental Focus",
+      "Embitter",
+      "Energy Barrier",
+      "Energy Retention",
+      "Enormity",
+      "Enraged Warcry I",
+      "Escalating Poison",
+      "Essence Harvest",
+      "Eternal Flame I",
+      "Excise",
+      "Excoriate",
+      "Execrate",
+      "Execute I",
+      "Expanse",
+      "Exploit Weakness",
+      "Extraction",
+      "Feeding Frenzy I",
+      "Ferocity",
+      "Fiery Death",
+      "Figurehead",
+      "Fire Attunement",
+      "Fire Exposure",
+      "Fire Mastery",
+      "Fire Penetration I",
+      "First Blood",
+      "Fist of War I",
+      "Flamepierce",
+      "Flow",
+      "Fluke",
+      "Focused Curse",
+      "Font of Blood",
+      "Font of Mana",
+      "Font of Rage",
+      "Fork",
+      "Fortress I",
+      "Freezefork",
+      "Fresh Clip I",
+      "Frost Nexus",
+      "Frostfire",
+      "Gambleshot",
+      "Glaciation",
+      "Glacier",
+      "Greatwood I",
+      "Haemocrystals"
     ],
-
     "damage_multiplier_examples": {
       "more_damage": [
-        {"name": "Controlled Destruction", "value": 30, "type": "Spell"},
-        {"name": "Brutality I", "value": 25, "type": "Physical"},
-        {"name": "Elemental Focus", "value": 25, "type": "Elemental"},
-        {"name": "Close Combat", "value": 25, "type": "Melee"},
-        {"name": "Bloodlust", "value": 30, "type": "Melee Physical vs Bleeding"}
+        {
+          "name": "Controlled Destruction",
+          "value": 30,
+          "type": "Spell"
+        },
+        {
+          "name": "Brutality I",
+          "value": 25,
+          "type": "Physical"
+        },
+        {
+          "name": "Elemental Focus",
+          "value": 25,
+          "type": "Elemental"
+        },
+        {
+          "name": "Close Combat",
+          "value": 25,
+          "type": "Melee"
+        },
+        {
+          "name": "Bloodlust",
+          "value": 30,
+          "type": "Melee Physical vs Bleeding"
+        }
       ],
       "less_damage": [
-        {"name": "Chain I", "value": -50, "type": "Hit"},
-        {"name": "Fork", "value": -50, "type": "After Fork"},
-        {"name": "Pierce I", "value": -30, "type": "After Pierce"},
-        {"name": "Critical Damage", "value": -20, "type": "Hit"},
-        {"name": "Scattershot", "value": -35, "type": "General"},
-        {"name": "Meat Shield", "value": -35, "type": "Minion"},
-        {"name": "Unleash", "value": -50, "type": "Reoccur"}
+        {
+          "name": "Chain I",
+          "value": -50,
+          "type": "Hit"
+        },
+        {
+          "name": "Fork",
+          "value": -50,
+          "type": "After Fork"
+        },
+        {
+          "name": "Pierce I",
+          "value": -30,
+          "type": "After Pierce"
+        },
+        {
+          "name": "Critical Damage",
+          "value": -20,
+          "type": "Hit"
+        },
+        {
+          "name": "Scattershot",
+          "value": -35,
+          "type": "General"
+        },
+        {
+          "name": "Meat Shield",
+          "value": -35,
+          "type": "Minion"
+        },
+        {
+          "name": "Unleash",
+          "value": -50,
+          "type": "Reoccur"
+        }
       ]
     },
-
     "cost_multipliers": {
-      "120_percent": ["Faster Projectiles", "Projectile Acceleration I/II", "Brutality I", "Inevitable Critical", "Ancestral Call I"],
-      "140_percent": ["Controlled Destruction (PoE1 reference)"],
-      "150_percent": ["Spell Echo", "Unleash"],
-      "110_percent": ["Fork"]
+      "120_percent": [
+        "Faster Projectiles",
+        "Projectile Acceleration I/II",
+        "Brutality I",
+        "Inevitable Critical",
+        "Ancestral Call I"
+      ],
+      "140_percent": [
+        "Controlled Destruction (PoE1 reference)"
+      ],
+      "150_percent": [
+        "Spell Echo",
+        "Unleash"
+      ],
+      "110_percent": [
+        "Fork"
+      ]
     }
   },
-
   "important_mechanics": {
     "support_gem_restrictions": {
       "one_per_category_per_skill": "You cannot have multiple Support Gems of the same Category socketed within one Skill",
       "one_per_loadout_removed": "As of patch 0.3.0, you can now use the same support gem on multiple skills (previously restricted to one per character)",
       "max_support_sockets": "Each skill can have up to 5 support sockets (requires Jeweller's Orbs to expand from base 2)"
     },
-
     "tier_system": {
       "description": "Support Gems have a tier-based system (1-5+) that determines stat value ranges",
       "higher_tiers": "Higher-tiered Support Gems have higher values and some have secondary effects",
       "acquisition": "Different tiers require different level Uncut Support Gems to craft"
     },
-
     "mana_system": {
       "note": "PoE2 handles mana costs differently than PoE1. Cost multipliers apply but the system is reworked."
     },
-
     "spirit_gems": {
       "description": "Spirit gems (like Archmage, Heralds, Auras) reserve Spirit instead of mana",
       "trigger_gems": "Trigger support gems like Cast on Critical Strike and Cast on Shock are now Meta Gems that reserve Spirit"
+    }
+  },
+  "scraped_supports": {
+    "home": {
+      "name": "Home",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "abiding_hex": {
+      "name": "Abiding Hex",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "accelerated_growth": {
+      "name": "Accelerated Growth",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "accelerated_growth_ii": {
+      "name": "Accelerated Growth II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "acrimony": {
+      "name": "Acrimony",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "temporary_wealth,_but_integrated_into_the_endgame": {
+      "name": "Temporary wealth, but integrated into the endgame",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "adhesive_grenades_i": {
+      "name": "Adhesive Grenades I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "adhesive_grenades_ii": {
+      "name": "Adhesive Grenades II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "adhesive_grenades_iii": {
+      "name": "Adhesive Grenades III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "admixture": {
+      "name": "Admixture",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "advancing_storm": {
+      "name": "Advancing Storm",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "aftershock_i": {
+      "name": "Aftershock I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "aftershock_ii": {
+      "name": "Aftershock II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "aftershock_iii": {
+      "name": "Aftershock III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "alignment_i": {
+      "name": "Alignment I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "alignment_ii": {
+      "name": "Alignment II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "alignment_iii": {
+      "name": "Alignment III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ambrosia": {
+      "name": "Ambrosia",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ambrosia_ii": {
+      "name": "Ambrosia II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ambush": {
+      "name": "Ambush",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ammo_conservation_i": {
+      "name": "Ammo Conservation I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ammo_conservation_ii": {
+      "name": "Ammo Conservation II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ammo_conservation_iii": {
+      "name": "Ammo Conservation III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ancestral_aid": {
+      "name": "Ancestral Aid",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ancestral_call_ii": {
+      "name": "Ancestral Call II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ancestral_call_iii": {
+      "name": "Ancestral Call III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "arcane_surge": {
+      "name": "Arcane Surge",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "NEW: The Arcane Surge Buff now grants 15% increased Cast Speed instead of 10% more Cast Speed.The Force of Will Notable Passive Skill no longer grants 1% increased Effect of Arcane Surge on you per 25 Maximum Mana. Instead, it now grants 20% of damage is taken from Mana before Life, and 20% increased magnitude of Arcane Surge on you per 10% missing Mana.The Arcane Surge Buff now grants 15% increased Cast Speed instead of 10% more Cast Speed.",
+      "source": "scraped"
+    },
+    "armour_break_i": {
+      "name": "Armour Break I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_break_ii": {
+      "name": "Armour Break II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_break_iii": {
+      "name": "Armour Break III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_demolisher_i": {
+      "name": "Armour Demolisher I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_demolisher_ii": {
+      "name": "Armour Demolisher II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "armour_explosion": {
+      "name": "Armour Explosion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "arms_length": {
+      "name": "Arms Length",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "first_ascendancy:_trail_of_the_sekhemas": {
+      "name": "First Ascendancy: Trail of the Sekhemas",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "astral_projection": {
+      "name": "Astral Projection",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Supported Skills Cast at the targeted location instead of around you",
+      "source": "scraped"
+    },
+    "atziri's_call": {
+      "name": "Atziri's Call",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "atziri's_communion": {
+      "name": "Atziri's Communion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "atziri's_impatience": {
+      "name": "Atziri's Impatience",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "auto_reload": {
+      "name": "Auto Reload",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barbs_i": {
+      "name": "Barbs I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barbs_ii": {
+      "name": "Barbs II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "barbs_iii": {
+      "name": "Barbs III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "battershout": {
+      "name": "Battershout",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "behead_i": {
+      "name": "Behead I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "behead_ii": {
+      "name": "Behead II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bhatair's_vengeance": {
+      "name": "Bhatair's Vengeance",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bidding_i": {
+      "name": "Bidding I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bidding_ii": {
+      "name": "Bidding II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bidding_iii": {
+      "name": "Bidding III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "biting_frost_i": {
+      "name": "Biting Frost I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "biting_frost_ii": {
+      "name": "Biting Frost II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blazing_critical": {
+      "name": "Blazing Critical",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "AttacksGain15% of Damage asFireDamage for5seconds onCritically Hittingwith Supported Skills",
+      "source": "scraped"
+    },
+    "bleed_i": {
+      "name": "Bleed I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bleed_ii": {
+      "name": "Bleed II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bleed_iii": {
+      "name": "Bleed III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bleed_iv": {
+      "name": "Bleed IV",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blind_i": {
+      "name": "Blind I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blind_ii": {
+      "name": "Blind II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "blindside": {
+      "name": "Blindside",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bloodlust": {
+      "name": "Bloodlust",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bone_shrapnel": {
+      "name": "Bone Shrapnel",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "boundless_energy_i": {
+      "name": "Boundless Energy I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Minion Death,Barrier Invocation,Elemental Invocation",
+      "source": "scraped"
+    },
+    "boundless_energy_ii": {
+      "name": "Boundless Energy II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Minion Death,Barrier Invocation,Elemental Invocation",
+      "source": "scraped"
+    },
+    "bounty_i": {
+      "name": "Bounty I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "bounty_ii": {
+      "name": "Bounty II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brambleslam": {
+      "name": "Brambleslam",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "branching_fissures_i": {
+      "name": "Branching Fissures I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "branching_fissures_ii": {
+      "name": "Branching Fissures II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "break_endurance": {
+      "name": "Break Endurance",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "break_posture": {
+      "name": "Break Posture",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brink_i": {
+      "name": "Brink I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brink_ii": {
+      "name": "Brink II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brittle_armour": {
+      "name": "Brittle Armour",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brutality_ii": {
+      "name": "Brutality II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "brutality_iii": {
+      "name": "Brutality III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "burgeon_i": {
+      "name": "Burgeon I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "burgeon_ii": {
+      "name": "Burgeon II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "burning_inscription": {
+      "name": "Burning Inscription",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "CreateIgnited Ground, Igniting enemies as though dealingFire Damageequal to20% of your Maximum Mana",
+      "source": "scraped"
+    },
+    "bursting_plague": {
+      "name": "Bursting Plague",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cadence": {
+      "name": "Cadence",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "caltrops": {
+      "name": "Caltrops",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cannibalism_i": {
+      "name": "Cannibalism I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cannibalism_ii": {
+      "name": "Cannibalism II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "catalysing_elements": {
+      "name": "Catalysing Elements",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "catharsis": {
+      "name": "Catharsis",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "chain_ii": {
+      "name": "Chain II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "chain_iii": {
+      "name": "Chain III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "chance_to_freeze": {
+      "name": "Chance to Freeze",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "chaos_attunement": {
+      "name": "Chaos Attunement",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "The Lightning/Cold/Fire/Chaos Infusion Support Gems have been renamed to Lightning/Cold/Fire/Chaos Attunement.",
+      "source": "scraped"
+    },
+    "chaos_mastery": {
+      "name": "Chaos Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "chaotic_freeze": {
+      "name": "Chaotic Freeze",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charge_profusion_i": {
+      "name": "Charge Profusion I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charge_profusion_ii": {
+      "name": "Charge Profusion II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charged_mark": {
+      "name": "Charged Mark",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charged_shots_i": {
+      "name": "Charged Shots I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charged_shots_ii": {
+      "name": "Charged Shots II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "charm_bounty": {
+      "name": "Charm Bounty",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cirel's_cultivation": {
+      "name": "Cirel's Cultivation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "clarity_i": {
+      "name": "Clarity I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Siphon Elements,Blink,Blasphemy,Cast on Minion Death,Barrier Invocation,Elemental Invocation,Barkskin",
+      "source": "scraped"
+    },
+    "clarity_ii": {
+      "name": "Clarity II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Blink,Blasphemy,Cast on Minion Death,Barrier Invocation,Elemental Invocation",
+      "source": "scraped"
+    },
+    "clash": {
+      "name": "Clash",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "close_combat_i": {
+      "name": "Close Combat I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "close_combat_ii": {
+      "name": "Close Combat II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cold_attunement": {
+      "name": "Cold Attunement",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cold_exposure": {
+      "name": "Cold Exposure",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "* The Fire Exposure, Lightning Exposure and Cold Exposure Support Gems no longer penalize Damage of Supported Skills. They now have a Mana Cost Multiplier of 120%.",
+      "source": "scraped"
+    },
+    "cold_mastery": {
+      "name": "Cold Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Elemental Ailment,Elemental Conflux,Trinity",
+      "source": "scraped"
+    },
+    "cold_penetration": {
+      "name": "Cold Penetration",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "combo_finisher_i": {
+      "name": "Combo Finisher I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "combo_finisher_ii": {
+      "name": "Combo Finisher II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "commandment": {
+      "name": "Commandment",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "commiserate": {
+      "name": "Commiserate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "compressed_duration_i": {
+      "name": "Compressed Duration I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "compressed_duration_ii": {
+      "name": "Compressed Duration II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "concentrated_area": {
+      "name": "Concentrated Area",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "concoct_i": {
+      "name": "Concoct I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "concoct_ii": {
+      "name": "Concoct II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "concussive_spells": {
+      "name": "Concussive Spells",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "conductive_embrace": {
+      "name": "Conductive Embrace",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "considered_casting": {
+      "name": "Considered Casting",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Considered Casting now has a 115% Cost Multiplier (previously 100%), and causes Supported Spells to deal 35% more Damage (previously 40%).Considered Casting now has a 115% Cost Multiplier (previously 100%).Considered Casting now has a 115% Cost Multiplier (previously 100%), and causes Supported Spells to deal 35% more Damage (previously 40%).",
+      "source": "scraped"
+    },
+    "controlled_hazard": {
+      "name": "Controlled Hazard",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cool_headed": {
+      "name": "Cool Headed",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cooldown_recovery_i": {
+      "name": "Cooldown Recovery I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cooldown_recovery_ii": {
+      "name": "Cooldown Recovery II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "corpse_conservation": {
+      "name": "Corpse Conservation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "corrosion": {
+      "name": "Corrosion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "corrupting_cry_i": {
+      "name": "Corrupting Cry I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "corrupting_cry_ii": {
+      "name": "Corrupting Cry II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "coursing_current": {
+      "name": "Coursing Current",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crackling_barrier": {
+      "name": "Crackling Barrier",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crafting": {
+      "name": "Crafting",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crater": {
+      "name": "Crater",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crazed_minions": {
+      "name": "Crazed Minions",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "creeping_chill": {
+      "name": "Creeping Chill",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "CreatedChilled GroundChillsas though dealing damage equal to100% of theIce Crystal's maximum Life",
+      "source": "scraped"
+    },
+    "crescendo_i": {
+      "name": "Crescendo I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crescendo_ii": {
+      "name": "Crescendo II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crescendo_iii": {
+      "name": "Crescendo III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crystalline_resistance": {
+      "name": "Crystalline Resistance",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crystalline_shards": {
+      "name": "Crystalline Shards",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "crystallised_immunities": {
+      "name": "Crystallised Immunities",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "culling_strike_i": {
+      "name": "Culling Strike I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "culling_strike_ii": {
+      "name": "Culling Strike II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "culmination_i": {
+      "name": "Culmination I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "culmination_ii": {
+      "name": "Culmination II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "cursed_ground": {
+      "name": "Cursed Ground",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_iron_grip": {
+      "name": "[DNT-UNUSED] Iron Grip",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_iron_will": {
+      "name": "[DNT-UNUSED] Iron Will",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_spectral_palm": {
+      "name": "[DNT-UNUSED] Spectral Palm",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_spiral_projectiles_i": {
+      "name": "[DNT-UNUSED] Spiral Projectiles I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_timerot": {
+      "name": "[DNT-UNUSED] Timerot",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt-unused]_titanic_arrows": {
+      "name": "[DNT-UNUSED] Titanic Arrows",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt]_from_the_grave": {
+      "name": "[DNT] From the Grave",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt]_stone_slam_aegis": {
+      "name": "[DNT] Stone Slam Aegis",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt]_tangmazu_lineage": {
+      "name": "[DNT] Tangmazu Lineage",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "[dnt]_totemic_aegis": {
+      "name": "[DNT] Totemic Aegis",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "danse_macabre": {
+      "name": "Danse Macabre",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dauntless": {
+      "name": "Dauntless",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "daze": {
+      "name": "Daze",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dazing_cry": {
+      "name": "Dazing Cry",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dazzle": {
+      "name": "Dazzle",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deadly_herald": {
+      "name": "Deadly Herald",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deadly_poison_i": {
+      "name": "Deadly Poison I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deadly_poison_ii": {
+      "name": "Deadly Poison II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deadly_resolve": {
+      "name": "Deadly Resolve",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deathmarch": {
+      "name": "Deathmarch",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "decaying_hex": {
+      "name": "Decaying Hex",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deep_cuts_i": {
+      "name": "Deep Cuts I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deep_cuts_ii": {
+      "name": "Deep Cuts II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deep_freeze": {
+      "name": "Deep Freeze",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "defy_i": {
+      "name": "Defy I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "defy_ii": {
+      "name": "Defy II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "delayed_gratification": {
+      "name": "Delayed Gratification",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "delayed_reaction": {
+      "name": "Delayed Reaction",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "deliberation": {
+      "name": "Deliberation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Shockchain Arrow,Firestorm,Hexblast,Hailstorm Rounds,Whirlwind Lance",
+      "source": "scraped"
+    },
+    "derange": {
+      "name": "Derange",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "desecrated_modifiers": {
+      "name": "Desecrated Modifiers",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "(4—8)% increasedSpellDamage(5—10)% increasedEvasion RatingDefencesCaster",
+      "source": "scraped"
+    },
+    "desperation": {
+      "name": "Desperation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "devastate": {
+      "name": "Devastate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "direstrike_i": {
+      "name": "Direstrike I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "direstrike_ii": {
+      "name": "Direstrike II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dominus'_grasp": {
+      "name": "Dominus' Grasp",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "double_barrel_i": {
+      "name": "Double Barrel I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "double_barrel_ii": {
+      "name": "Double Barrel II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "double_barrel_iii": {
+      "name": "Double Barrel III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "drain_ailments": {
+      "name": "Drain Ailments",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "dreamer's_knell": {
+      "name": "Dreamer's Knell",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "durability": {
+      "name": "Durability",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "echoing_cry": {
+      "name": "Echoing Cry",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "efficiency_i": {
+      "name": "Efficiency I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "efficiency_ii": {
+      "name": "Efficiency II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "electrocute": {
+      "name": "Electrocute",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "electromagnetism": {
+      "name": "Electromagnetism",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_armament_i": {
+      "name": "Elemental Armament I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_armament_ii": {
+      "name": "Elemental Armament II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_armament_iii": {
+      "name": "Elemental Armament III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_army": {
+      "name": "Elemental Army",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "elemental_discharge": {
+      "name": "Elemental Discharge",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "embitter": {
+      "name": "Embitter",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "empowered_sparks_i": {
+      "name": "Empowered Sparks I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "empowered_sparks_ii": {
+      "name": "Empowered Sparks II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "encroaching_ground": {
+      "name": "Encroaching Ground",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "endgame": {
+      "name": "Endgame",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "enduring_impact_i": {
+      "name": "Enduring Impact I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "enduring_impact_ii": {
+      "name": "Enduring Impact II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "energy_barrier": {
+      "name": "Energy Barrier",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "energy_capacitor": {
+      "name": "Energy Capacitor",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "energy_retention": {
+      "name": "Energy Retention",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Elemental Ailment,Cast on Critical,Cast on Dodge,Reaper's Invocation,Feral Invocation",
+      "source": "scraped"
+    },
+    "enervation": {
+      "name": "Enervation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "enraged_warcry_i": {
+      "name": "Enraged Warcry I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "enraged_warcry_ii": {
+      "name": "Enraged Warcry II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eonyr's_thunder": {
+      "name": "Eonyr's Thunder",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "escalating_poison": {
+      "name": "Escalating Poison",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "essence_harvest": {
+      "name": "Essence Harvest",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eternal_flame_i": {
+      "name": "Eternal Flame I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eternal_flame_ii": {
+      "name": "Eternal Flame II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eternal_flame_iii": {
+      "name": "Eternal Flame III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "eternal_mark": {
+      "name": "Eternal Mark",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "excise": {
+      "name": "Excise",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "excoriate": {
+      "name": "Excoriate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "execrate": {
+      "name": "Execrate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "execute_i": {
+      "name": "Execute I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "execute_ii": {
+      "name": "Execute II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Comet,Firestorm,Shattering Palm,Hexblast,Elemental Sundering",
+      "source": "scraped"
+    },
+    "execute_iii": {
+      "name": "Execute III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "expand": {
+      "name": "Expand",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "expanse": {
+      "name": "Expanse",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "exploit_weakness": {
+      "name": "Exploit Weakness",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "exposing_cry": {
+      "name": "Exposing Cry",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "extraction": {
+      "name": "Extraction",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fan_the_flames": {
+      "name": "Fan The Flames",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fan_the_flames_ii": {
+      "name": "Fan The Flames II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "feeding_frenzy_i": {
+      "name": "Feeding Frenzy I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "feeding_frenzy_ii": {
+      "name": "Feeding Frenzy II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ferocity": {
+      "name": "Ferocity",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fiery_death": {
+      "name": "Fiery Death",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Explosion deals baseFireDamage equal to10% of theCorpse'sMaximum Life",
+      "source": "scraped"
+    },
+    "fire_attunement": {
+      "name": "Fire Attunement",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "SupportedAttacksGain25% of Damage as extraFireDamage",
+      "source": "scraped"
+    },
+    "fire_exposure": {
+      "name": "Fire Exposure",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Fireball,Skeletal Arsonist,Incendiary Shot,Rolling Magma",
+      "source": "scraped"
+    },
+    "fire_mastery": {
+      "name": "Fire Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Infernal Cry,Living Bomb,Fireball,Skeletal Arsonist",
+      "source": "scraped"
+    },
+    "fire_penetration_i": {
+      "name": "Fire Penetration I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fire_penetration_ii": {
+      "name": "Fire Penetration II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Living Bomb,Fireball,Skeletal Arsonist,Incendiary Shot,Rolling Magma",
+      "source": "scraped"
+    },
+    "first_blood": {
+      "name": "First Blood",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fist_of_war_i": {
+      "name": "Fist of War I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fist_of_war_ii": {
+      "name": "Fist of War II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fist_of_war_iii": {
+      "name": "Fist of War III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "flame_pillar": {
+      "name": "Flame Pillar",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "flamepierce": {
+      "name": "Flamepierce",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "flow": {
+      "name": "Flow",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Overflow effects on Life, Mana and Energy Shield can now Overflow the maximum by up to 1.5 times (from 2 times)The Flowing Metal Notable Passive Skill now causes Body Armour to grant 50% of Armour to also applies to Elemental Damage from Hits (previously caused Body Armour to grant +5% to Maximum Fire Resistance).The Flowing Metal Notable Passive Skill now causes Body Armour to grant 50% of Armour to also applies to Elemental Damage from Hits (previously caused Body Armour to grant +5% to Maximu",
+      "source": "scraped"
+    },
+    "fluke": {
+      "name": "Fluke",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Elemental Ailment,Cast on Critical,Cast on Dodge,Feral Invocation",
+      "source": "scraped"
+    },
+    "focused_curse": {
+      "name": "Focused Curse",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "font_of_blood": {
+      "name": "Font of Blood",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "font_of_mana": {
+      "name": "Font of Mana",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "font_of_rage": {
+      "name": "Font of Rage",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fortress_i": {
+      "name": "Fortress I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fortress_ii": {
+      "name": "Fortress II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "freeze": {
+      "name": "Freeze",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Added a new Intelligence Persistent Buff Gem — Siphon Elements: While active, has a chance to create an Infusion Remnant when you Freeze, Shock or Ignite a target.Ice Crystals will now instantly shatter from hits that could Consume Freeze. As this is now default behaviour, Glacial Cascade and Fragmentation Rounds no longer specifically call out this behaviour.Shattering Concoction, granted by the Shattering Concoction Notable Passive Skill choice, now inflicts Elemental Exposure on hit instead o",
+      "source": "scraped"
+    },
+    "freezefork": {
+      "name": "Freezefork",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frenzied_riposte": {
+      "name": "Frenzied Riposte",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fresh_clip_i": {
+      "name": "Fresh Clip I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fresh_clip_ii": {
+      "name": "Fresh Clip II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frost_nexus": {
+      "name": "Frost Nexus",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frostfire": {
+      "name": "Frostfire",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frozen_spite": {
+      "name": "Frozen Spite",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "frozen_vortex": {
+      "name": "Frozen Vortex",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "fusillade": {
+      "name": "Fusillade",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "gambleshot": {
+      "name": "Gambleshot",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "gems": {
+      "name": "Gems",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Herald of Ash(1)Buff,Persistent,AoE,Fire,Duration,HeraldBoneshatter(1)Attack,AoE,Melee,StrikeEarthquake(1)Attack,AoE,Melee,Slam,DurationRolling Slam(1)Attack,AoE,Melee,SlamArmour Breaker(3)Attack,AoE,Melee,Strike,PhysicalInfernal Cry(3)Warcry,AoE,Trigger,Fire,Duration,NovaShield Charge(3)Attack,AoE,Melee,Physical,Channelling,TravelShockwave Totem(3)Attack,Totem,AoE,Melee,Slam,Duration,NovaHerald of Ash(4)Buff,Persistent,AoE,Fire,Duration,HeraldIron Ward(4)Buff,Persistent,AoE,Physical,NovaMagma B",
+      "source": "scraped"
+    },
+    "gem_enthusiast": {
+      "name": "Gem Enthusiast",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "gemling_legionnaire": {
+      "name": "Gemling Legionnaire",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "glacier": {
+      "name": "Glacier",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "gorge": {
+      "name": "Gorge",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "greatwood_ii": {
+      "name": "Greatwood II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "guatelitzi's_ablation": {
+      "name": "Guatelitzi's Ablation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "haemocrystals": {
+      "name": "Haemocrystals",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hardy_totems_i": {
+      "name": "Hardy Totems I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hardy_totems_ii": {
+      "name": "Hardy Totems II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "harmonic_remnants_i": {
+      "name": "Harmonic Remnants I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "harmonic_remnants_ii": {
+      "name": "Harmonic Remnants II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hayoxi's_fulmination": {
+      "name": "Hayoxi's Fulmination",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heavy_swing": {
+      "name": "Heavy Swing",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heft": {
+      "name": "Heft",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heightened_accuracy_i": {
+      "name": "Heightened Accuracy I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heightened_accuracy_ii": {
+      "name": "Heightened Accuracy II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heightened_charges": {
+      "name": "Heightened Charges",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "heightened_curse": {
+      "name": "Heightened Curse",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "helbrym's_hide": {
+      "name": "Helbrym's Hide",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "herbalism_i": {
+      "name": "Herbalism I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "herbalism_ii": {
+      "name": "Herbalism II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hex_bloom": {
+      "name": "Hex Bloom",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hinder": {
+      "name": "Hinder",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hit_and_run": {
+      "name": "Hit and Run",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hoarfrost": {
+      "name": "Hoarfrost",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hobble": {
+      "name": "Hobble",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "holy_descent": {
+      "name": "Holy Descent",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "hourglass": {
+      "name": "Hourglass",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "The Quicksand Hourglass Notable Passive Skill no longer grants Every 10 seconds gain 50% more Cast Speed for 5 seconds. Instead, it now grants Sands of Time, which grants 60% Cast Speed, scaling down to 1% over 10 seconds at which point it will then scale back up to 60%. Sands of Time also grants 1% increased Area of Effect, scaling up to 60% over 10 seconds, at which point it will then scale back down to 1%.Failing to collect all the hourglasses during the Zarokh, the Temporal boss fight no lon",
+      "source": "scraped"
+    },
+    "hulking_minions": {
+      "name": "Hulking Minions",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ice_bite_i": {
+      "name": "Ice Bite I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ice_bite_ii": {
+      "name": "Ice Bite II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "icicle": {
+      "name": "Icicle",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ignite_i": {
+      "name": "Ignite I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "These changes do not affect how ignite itself functions or is calculated once it has been applied.Explosive Concoction, granted by the Explosive Concoction Notable Passive Skill choice, no longer has 200% more magnitude of ignite inflicted, and no longer inflicts Fire Exposure on hit. Now fires up to four additional mini flask projectiles at ignited enemies. Quality now grants +0-2 additional mini flask projectiles thrown at ignited enemies, instead ofSpear of Solaris: Initial Hit now deals appr",
+      "source": "scraped"
+    },
+    "ignite_ii": {
+      "name": "Ignite II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ignite_iii": {
+      "name": "Ignite III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "immolate": {
+      "name": "Immolate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "SupportedAttacksGain30% of Damage as extraFireDamage againstIgnitedenemies",
+      "source": "scraped"
+    },
+    "impact_shockwave": {
+      "name": "Impact Shockwave",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "impale": {
+      "name": "Impale",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "impending_doom": {
+      "name": "Impending Doom",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "incision": {
+      "name": "Incision",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "inexorable_critical_i": {
+      "name": "Inexorable Critical I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "inexorable_critical_ii": {
+      "name": "Inexorable Critical II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "infernal_legion_i": {
+      "name": "Infernal Legion I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Minionsfrom Supported Skills take20% of their maximum Life asFireDamage per second",
+      "source": "scraped"
+    },
+    "infernal_legion_ii": {
+      "name": "Infernal Legion II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Minionsfrom Supported Skills take20% of their maximum Life asFireDamage per second",
+      "source": "scraped"
+    },
+    "infernal_legion_iii": {
+      "name": "Infernal Legion III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Minionsfrom Supported Skills take30% of their maximum Life asFireDamage per second",
+      "source": "scraped"
+    },
+    "infusion": {
+      "name": "Infusion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Refracted Infusion now grants: When collecting an Elemental Infusion, gain another different Elemental Infusion (previously 50% chance).Thaumaturgical Infusion now grants: +1% to Maximum Cold Resistance per 3 Blue Support Gems Socketed (previously 4). +1% to Maximum Fire Resistance per 3 Red Support Gems Socketed (previously 4). +1% to Maximum Lightning Resistance per 3 Green Support Gems Socketed (previously 4).The Elemental Equilibrium Keystone now grants Cold Infusion Remnants you create are ",
+      "source": "scraped"
+    },
+    "inhibitor": {
+      "name": "Inhibitor",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "innervate": {
+      "name": "Innervate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "integrated_efficiency": {
+      "name": "Integrated Efficiency",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "intense_agony": {
+      "name": "Intense Agony",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "invocation": {
+      "name": "Invocation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "items": {
+      "name": "Items",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "jagged_ground_i": {
+      "name": "Jagged Ground I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "jagged_ground_ii": {
+      "name": "Jagged Ground II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kaom's_madness": {
+      "name": "Kaom's Madness",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "keywords": {
+      "name": "Keywords",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "khatal's_rejuvenation": {
+      "name": "Khatal's Rejuvenation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "knockback": {
+      "name": "Knockback",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "50% increased Movement Speed50% increasedAttackSpeed50% increased Cast Speed100% chance toKnock Enemies Backon hit400% increasedKnockbackDistanceAttackCasterSpeed",
+      "source": "scraped"
+    },
+    "kulemak's_dominion": {
+      "name": "Kulemak's Dominion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "kurgal's_leash": {
+      "name": "Kurgal's Leash",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "last_gasp": {
+      "name": "Last Gasp",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lasting_ground": {
+      "name": "Lasting Ground",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lasting_shock": {
+      "name": "Lasting Shock",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "leverage": {
+      "name": "Leverage",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_bounty": {
+      "name": "Life Bounty",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_drain": {
+      "name": "Life Drain",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_leech_i": {
+      "name": "Life Leech I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_leech_ii": {
+      "name": "Life Leech II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "life_leech_iii": {
+      "name": "Life Leech III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lifetap": {
+      "name": "Lifetap",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lightning_attunement": {
+      "name": "Lightning Attunement",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lightning_exposure": {
+      "name": "Lightning Exposure",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "*Fire ExposureandLightning ExposureSupports have had their wording adjusted to make clear their effects apply to any target, not just Enemies. This is not a functional change, just a clarification of wording.",
+      "source": "scraped"
+    },
+    "lightning_mastery": {
+      "name": "Lightning Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lightning_penetration": {
+      "name": "Lightning Penetration",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "lineage_support_gems": {
+      "name": "Lineage Support Gems",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "liquid_emotions": {
+      "name": "Liquid Emotions",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "living_lightning": {
+      "name": "Living Lightning",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Creates 1 Minion\\nLevel of Minions is based on Level ofTriggeringSkill",
+      "source": "scraped"
+    },
+    "living_lightning_ii": {
+      "name": "Living Lightning II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Creates 1 Minion\\nLevel of Minions is based on Level ofTriggeringSkill",
+      "source": "scraped"
+    },
+    "lockdown": {
+      "name": "Lockdown",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "long_fuse_i": {
+      "name": "Long Fuse I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "long_fuse_ii": {
+      "name": "Long Fuse II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "longshot_i": {
+      "name": "Longshot I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "longshot_ii": {
+      "name": "Longshot II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "loyalty": {
+      "name": "Loyalty",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "magnetic_remnants": {
+      "name": "Magnetic Remnants",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "magnified_area_i": {
+      "name": "Magnified Area I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "magnified_area_ii": {
+      "name": "Magnified Area II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "maim": {
+      "name": "Maim",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "malady": {
+      "name": "Malady",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mana_bounty": {
+      "name": "Mana Bounty",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mana_flare": {
+      "name": "Mana Flare",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Consumes25% of current Mana to deal that muchFiredamage",
+      "source": "scraped"
+    },
+    "mana_leech": {
+      "name": "Mana Leech",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mark_for_death": {
+      "name": "Mark for Death",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mark_for_death_ii": {
+      "name": "Mark for Death II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mark_of_siphoning": {
+      "name": "Mark of Siphoning",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mark_of_siphoning_ii": {
+      "name": "Mark of Siphoning II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "meat_shield_i": {
+      "name": "Meat Shield I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "meat_shield_ii": {
+      "name": "Meat Shield II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mercenary": {
+      "name": "Mercenary",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "I'll do as you ask, my lady. I'll bring you fire.—WaterGoddessDirectToFire",
+      "source": "scraped"
+    },
+    "minion_instability": {
+      "name": "Minion Instability",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Minionsfrom Supported Skills explode when reduced toLow Life, dealing15% of their maximum Life asFireDamage to surrounding Enemies",
+      "source": "scraped"
+    },
+    "minion_mastery": {
+      "name": "Minion Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "minion_pact_i": {
+      "name": "Minion Pact I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "minion_pact_ii": {
+      "name": "Minion Pact II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mobility": {
+      "name": "Mobility",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "modifiers": {
+      "name": "Modifiers",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "momentum": {
+      "name": "Momentum",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "morgana's_tempest": {
+      "name": "Morgana's Tempest",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "multishot_i": {
+      "name": "Multishot I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "multishot_ii": {
+      "name": "Multishot II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Fireball,Frost Darts,Skeletal Arsonist,Flash Grenade,Rolling Magma",
+      "source": "scraped"
+    },
+    "murderous_intent": {
+      "name": "Murderous Intent",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "muster": {
+      "name": "Muster",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "mysticism_i": {
+      "name": "Mysticism I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Cast on Elemental Ailment,Archmage,Elemental Conflux,Sacrifice,Cast on Critical,Cast on Dodge,Reaper's Invocation,Eternal Rage,Feral Invocation",
+      "source": "scraped"
+    },
+    "mysticism_ii": {
+      "name": "Mysticism II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Archmage,Elemental Conflux,Sacrifice,Cast on Critical",
+      "source": "scraped"
+    },
+    "nadir": {
+      "name": "Nadir",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "neural_overload": {
+      "name": "Neural Overload",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "nimble_reload": {
+      "name": "Nimble Reload",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "nova_projectiles_i": {
+      "name": "Nova Projectiles I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "nova_projectiles_ii": {
+      "name": "Nova Projectiles II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Fireball,Staggering Palm,Incendiary Shot,Lightning Spear",
+      "source": "scraped"
+    },
+    "oisín's_oath": {
+      "name": "Oisín's Oath",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "opening_move": {
+      "name": "Opening Move",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "outmaneuver": {
+      "name": "Outmaneuver",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overabundance_i": {
+      "name": "Overabundance I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overabundance_ii": {
+      "name": "Overabundance II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overabundance_iii": {
+      "name": "Overabundance III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overcharge": {
+      "name": "Overcharge",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overextend": {
+      "name": "Overextend",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "overreach": {
+      "name": "Overreach",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "paquate's_pact": {
+      "name": "Paquate's Pact",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "payload": {
+      "name": "Payload",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Siege Cascade: Impact now deals 94-145% of Attack Damage at Gem levels 13-20 (previously 59-91%), while the Explosion now deals 352-543% of Attack Damage (previously 258-398%). No longer deals 200% more Damage against Immobilised Enemies. No longer has a hidden 100% less Stun Buildup against Enemies, converts 80% of Physical Damage to Fire Damage, or has the Payoff and Fire Gem tags. Payload radius is now 0.4 metres (previously 0.5), while the Bolt explosion radius is now 0.8 metres (previously ",
+      "source": "scraped"
+    },
+    "perfected_endurance": {
+      "name": "Perfected Endurance",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "perfection": {
+      "name": "Perfection",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "perpetual_charge": {
+      "name": "Perpetual Charge",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "persistent_ground_i": {
+      "name": "Persistent Ground I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "persistent_ground_ii": {
+      "name": "Persistent Ground II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "persistent_ground_iii": {
+      "name": "Persistent Ground III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "physical_mastery": {
+      "name": "Physical Mastery",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pierce_ii": {
+      "name": "Pierce II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pierce_iii": {
+      "name": "Pierce III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pin_i": {
+      "name": "Pin I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pin_ii": {
+      "name": "Pin II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pin_iii": {
+      "name": "Pin III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pinpoint_critical": {
+      "name": "Pinpoint Critical",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "poison_i": {
+      "name": "Poison I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Added a new Dexterity Skill Gem — Toxic Domain: Create an area of Toxic Bloom on the ground around you. While in the Bloom, you have increased Skill costs, regenerate Life, and your Projectile Attacks attach a Toxic Pustule, which can be Poisoned, Pustules will Detonate after a duration or when enough Poison has been applied, dealing damage and applying Poison in an area around it.Poisonburst Arrow: Quality now provides 0-20% more Magnitude of Poison inflicted (previously 0-20% increased Magnitu",
+      "source": "scraped"
+    },
+    "poison_ii": {
+      "name": "Poison II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "poison_iii": {
+      "name": "Poison III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "poison_spores": {
+      "name": "Poison Spores",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "potent_exposure": {
+      "name": "Potent Exposure",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "potential": {
+      "name": "Potential",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "practical_magic_i": {
+      "name": "Practical Magic I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "practical_magic_ii": {
+      "name": "Practical Magic II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "practiced_combo": {
+      "name": "Practiced Combo",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "precision_i": {
+      "name": "Precision I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "precision_ii": {
+      "name": "Precision II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "premeditation": {
+      "name": "Premeditation",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "profanity_i": {
+      "name": "Profanity I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "profanity_ii": {
+      "name": "Profanity II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "projectile_acceleration_iii": {
+      "name": "Projectile Acceleration III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "projectile_deceleration_i": {
+      "name": "Projectile Deceleration I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "projectile_deceleration_ii": {
+      "name": "Projectile Deceleration II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "prolonged_duration_i": {
+      "name": "Prolonged Duration I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "prolonged_duration_ii": {
+      "name": "Prolonged Duration II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "prolonged_duration_iii": {
+      "name": "Prolonged Duration III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "punch_through": {
+      "name": "Punch Through",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pursuit_i": {
+      "name": "Pursuit I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pursuit_ii": {
+      "name": "Pursuit II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "pursuit_iii": {
+      "name": "Pursuit III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "quest": {
+      "name": "Quest",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "+5% Fire Resistance or +5 Strength+5% Cold Resistance or +5 Dexterity+5% Lightning Resistance or +5 Intelligence",
+      "source": "scraped"
+    },
+    "quill_burst": {
+      "name": "Quill Burst",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rage_i": {
+      "name": "Rage I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rage_ii": {
+      "name": "Rage II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rage_iii": {
+      "name": "Rage III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rageforged_i": {
+      "name": "Rageforged I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rageforged_ii": {
+      "name": "Rageforged II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "raging_cry": {
+      "name": "Raging Cry",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rally": {
+      "name": "Rally",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rapid_attacks_i": {
+      "name": "Rapid Attacks I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rapid_attacks_ii": {
+      "name": "Rapid Attacks II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rapid_attacks_iii": {
+      "name": "Rapid Attacks III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rapid_casting_i": {
+      "name": "Rapid Casting I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "* Fixed a bug where Rapid Casting III was not providing increased Cast Speed for each different Spell you had Cast in the last eight seconds.",
+      "source": "scraped"
+    },
+    "rapid_casting_ii": {
+      "name": "Rapid Casting II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "* Fixed a bug where Rapid Casting III was not providing increased Cast Speed for each different Spell you had Cast in the last eight seconds.",
+      "source": "scraped"
+    },
+    "rapid_casting_iii": {
+      "name": "Rapid Casting III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Supported Skills have10% increased Cast Speed for each differentSpellyou've Cast in the last eight seconds",
+      "source": "scraped"
+    },
+    "rearm_i": {
+      "name": "Rearm I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rearm_ii": {
+      "name": "Rearm II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "forge_recipe": {
+      "name": "Forge recipe",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "refraction_i": {
+      "name": "Refraction I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "refraction_ii": {
+      "name": "Refraction II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "refraction_iii": {
+      "name": "Refraction III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "reinforced_totems_i": {
+      "name": "Reinforced Totems I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "reinforced_totems_ii": {
+      "name": "Reinforced Totems II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "relentless_rage": {
+      "name": "Relentless Rage",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "remnant_potency_i": {
+      "name": "Remnant Potency I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "remnant_potency_ii": {
+      "name": "Remnant Potency II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "remnant_potency_iii": {
+      "name": "Remnant Potency III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rending_apex": {
+      "name": "Rending Apex",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "retaliate_i": {
+      "name": "Retaliate I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "retaliate_ii": {
+      "name": "Retaliate II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "retreat_i": {
+      "name": "Retreat I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "retreat_ii": {
+      "name": "Retreat II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "retreat_iii": {
+      "name": "Retreat III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "reverberate": {
+      "name": "Reverberate",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ricochet_ii": {
+      "name": "Ricochet II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rigwald's_ferocity": {
+      "name": "Rigwald's Ferocity",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rime": {
+      "name": "Rime",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rip": {
+      "name": "Rip",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "* Added description text to Atziri's Chambers to clarify how to unlock the room.* Updated the Spectral Fire keyword to correctly state that damage modifiers do not scale the explosion further, this is purely a description change.",
+      "source": "scraped"
+    },
+    "rising_tempest": {
+      "name": "Rising Tempest",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Comet,Firestorm,Shattering Palm,Elemental Sundering",
+      "source": "scraped"
+    },
+    "ritualistic_curse": {
+      "name": "Ritualistic Curse",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rupture": {
+      "name": "Rupture",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "rusted_spikes": {
+      "name": "Rusted Spikes",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "ruthless": {
+      "name": "Ruthless",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "sacrificial_lamb_i": {
+      "name": "Sacrificial Lamb I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "sacrificial_lamb_ii": {
+      "name": "Sacrificial Lamb II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "sacrificial_offering": {
+      "name": "Sacrificial Offering",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "salvo": {
+      "name": "Salvo",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Freezing Salvo now scales Freeze Buildup with Gem level, up to 107% more at Gem level 20 (previously 50% at all levels).Magnetic Salvo now deals 100-140% of Attack Damage with Impact at Gem levels 13-20 (previously 89-125%), and 155-218% of Attack Damage with Explosion at Gem levels 13-20 (previously 177-250%). It now Fires up to 8 Missiles at all Gem levels (previously 14-17 at Gem levels 13-20). Quality now provides +0-4 Missiles, instead of 0-20% more Projectile Damage.When using a controller",
+      "source": "scraped"
+    },
+    "searing_flame_i": {
+      "name": "Searing Flame I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "searing_flame_ii": {
+      "name": "Searing Flame II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "second_wind_i": {
+      "name": "Second Wind I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "second_wind_ii": {
+      "name": "Second Wind II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "second_wind_iii": {
+      "name": "Second Wind III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "see_red": {
+      "name": "See Red",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "selfless_remnants": {
+      "name": "Selfless Remnants",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shock": {
+      "name": "Shock",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Added a new Mountain Splitter Ascendancy Passive Skill which grants Every Third Slam Skill that doesn't create Fissures which you use yourself causes 3 additional Aftershocks ahead and to each side of the initial area. Requires Crushing Impacts.Shocking and Igniting now grant 1 Unbound Fury (previously 2).Stormfire Support: Now causes enemies Shocked by Supported Skills to take a percentage of Ignite damage as Lightning damage as well as Fire damage. (previously Shocks from Supported Skills do n",
+      "source": "scraped"
+    },
+    "shock_conduction_i": {
+      "name": "Shock Conduction I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shock_conduction_ii": {
+      "name": "Shock Conduction II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shock_siphon": {
+      "name": "Shock Siphon",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "shocking_leap": {
+      "name": "Shocking Leap",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "short_fuse_i": {
+      "name": "Short Fuse I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "short_fuse_ii": {
+      "name": "Short Fuse II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "skittering_stone_i": {
+      "name": "Skittering Stone I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "skittering_stone_ii": {
+      "name": "Skittering Stone II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "slow_potency": {
+      "name": "Slow Potency",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "solus_ipse": {
+      "name": "Solus Ipse",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "soul_drain": {
+      "name": "Soul Drain",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "soulbreaker": {
+      "name": "Soulbreaker",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spar": {
+      "name": "Spar",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Spark now fires 4-9 Projectiles at gem levels 1-20 (previously 6-14), and no longer has 0-19% increased Projectile Speed. Quality now provides 0-30% increased Projectile Speed (previously Fires +0-4 Projectiles).",
+      "source": "scraped"
+    },
+    "spectral_volley": {
+      "name": "Spectral Volley",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spell_cascade": {
+      "name": "Spell Cascade",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "* Fixed a bug where Summon Spectre, Tame Beast, and Disciple of Varashta's Ruzhan could not be supported by Spell Echo or Spell Cascade.",
+      "source": "scraped"
+    },
+    "spirit_gems": {
+      "name": "Spirit Gems",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Herald of Ash(4)Buff,Persistent,AoE,Fire,Duration,HeraldIron Ward(4)Buff,Persistent,AoE,Physical,NovaMagma Barrier(4)Buff,Attack,Persistent,AoE,Melee,Trigger,FireScavenged Plating(4)Buff,Persistent,Physical,DurationOverwhelming Presence(8)Buff,Persistent,AuraTime of Need(8)Buff,Persistent,DurationBerserk(14)Buff,PersistentEternal Rage(14)Buff,Persistent",
+      "source": "scraped"
+    },
+    "splinter_totem_i": {
+      "name": "Splinter Totem I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "splinter_totem_ii": {
+      "name": "Splinter Totem II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "spreading_frost": {
+      "name": "Spreading Frost",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "static_shocks": {
+      "name": "Static Shocks",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "steadfast_i": {
+      "name": "Steadfast I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "steadfast_ii": {
+      "name": "Steadfast II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stoicism_i": {
+      "name": "Stoicism I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stoicism_ii": {
+      "name": "Stoicism II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stomping_ground": {
+      "name": "Stomping Ground",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stormchain": {
+      "name": "Stormchain",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stormfire": {
+      "name": "Stormfire",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "EnemiesShockedby Supported Skills take20% of damage fromIgniteasLightningdamage as well asFiredamage",
+      "source": "scraped"
+    },
+    "streamlined_rounds": {
+      "name": "Streamlined Rounds",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "strong_hearted": {
+      "name": "Strong Hearted",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stun_i": {
+      "name": "Stun I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stun_ii": {
+      "name": "Stun II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "stun_iii": {
+      "name": "Stun III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "supercritical": {
+      "name": "Supercritical",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "swift_affliction_i": {
+      "name": "Swift Affliction I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "swift_affliction_ii": {
+      "name": "Swift Affliction II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "swift_affliction_iii": {
+      "name": "Swift Affliction III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "syzygy": {
+      "name": "Syzygy",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tacati's_ire": {
+      "name": "Tacati's Ire",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tasalio's_rhythm": {
+      "name": "Tasalio's Rhythm",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tawhoa's_tending": {
+      "name": "Tawhoa's Tending",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tear": {
+      "name": "Tear",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tectonic_slams": {
+      "name": "Tectonic Slams",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thaumaturgical_infusion": {
+      "name": "Thaumaturgical Infusion",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thornskin_i": {
+      "name": "Thornskin I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thornskin_ii": {
+      "name": "Thornskin II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thrill_of_the_kill": {
+      "name": "Thrill of the Kill",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "thrill_of_the_kill_ii": {
+      "name": "Thrill of the Kill II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tireless": {
+      "name": "Tireless",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tremors": {
+      "name": "Tremors",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tul's_stillness": {
+      "name": "Tul's Stillness",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "tumult": {
+      "name": "Tumult",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "uhtred's_augury": {
+      "name": "Uhtred's Augury",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "uhtred's_exodus": {
+      "name": "Uhtred's Exodus",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "uhtred's_omen": {
+      "name": "Uhtred's Omen",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unabating": {
+      "name": "Unabating",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unbending": {
+      "name": "Unbending",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "8% of Damage taken while using Supported Skills isRecoupedas Mana per quarter second of Cast time of Supported Skill",
+      "source": "scraped"
+    },
+    "unbothering_cold": {
+      "name": "Unbothering Cold",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unbreakable": {
+      "name": "Unbreakable",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "undermine": {
+      "name": "Undermine",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unerring_power": {
+      "name": "Unerring Power",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unnatural_resilience": {
+      "name": "Unnatural Resilience",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Unnatural ResilienceLiquid Emotions:Isolation,Isolation,Isolation+3% to allElementalResistances+2% toMaximum Fire Resistanceif you have at least 5 RedSupport GemsSocketed",
+      "source": "scraped"
+    },
+    "unsteady_tempo": {
+      "name": "Unsteady Tempo",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "untouchable": {
+      "name": "Untouchable",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "unyielding": {
+      "name": "Unyielding",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "upheaval_i": {
+      "name": "Upheaval I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "upheaval_ii": {
+      "name": "Upheaval II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "upwelling_i": {
+      "name": "Upwelling I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "upwelling_ii": {
+      "name": "Upwelling II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "urgent_totems_i": {
+      "name": "Urgent Totems I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "urgent_totems_ii": {
+      "name": "Urgent Totems II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "urgent_totems_iii": {
+      "name": "Urgent Totems III",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "SpellsCast byTotemscreated by Supported Skills have20% increased Cast Speed",
+      "source": "scraped"
+    },
+    "uul-netol's_embrace": {
+      "name": "Uul-Netol's Embrace",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "vanguard_i": {
+      "name": "Vanguard I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "vanguard_ii": {
+      "name": "Vanguard II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "varashta's_blessing": {
+      "name": "Varashta's Blessing",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "verglas": {
+      "name": "Verglas",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "vitality_i": {
+      "name": "Vitality I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Overwhelming Presence,Time of Need,Herald of Plague,Combat Frenzy,Siphon Elements,Blink,Cast on Minion Death,Barrier Invocation,Elemental Invocation,Barkskin",
+      "source": "scraped"
+    },
+    "vitality_ii": {
+      "name": "Vitality II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "volatile_power": {
+      "name": "Volatile Power",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "volatility": {
+      "name": "Volatility",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "volcanic_eruption": {
+      "name": "Volcanic Eruption",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "volt": {
+      "name": "Volt",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "warm_blooded": {
+      "name": "Warm Blooded",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "waystone": {
+      "name": "Waystone",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Monsters deal(15—20)% of Damage as Extra Fire28% increased number ofMagicMonsters15% increasedWaystonesfound in Area",
+      "source": "scraped"
+    },
+    "wildfire": {
+      "name": "Wildfire",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wildshards_i": {
+      "name": "Wildshards I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wildshards_ii": {
+      "name": "Wildshards II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "wind_wave": {
+      "name": "Wind Wave",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "window_of_opportunity_i": {
+      "name": "Window of Opportunity I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "window_of_opportunity_ii": {
+      "name": "Window of Opportunity II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "withering_touch": {
+      "name": "Withering Touch",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "xibaqua's_rending": {
+      "name": "Xibaqua's Rending",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Explosion deals baseFireDamage equal to6% of theCorpse'sMaximum Life",
+      "source": "scraped"
+    },
+    "xoph's_pyre": {
+      "name": "Xoph's Pyre",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "Supported SkillsGain40% ofFireDamage as ExtraChaosDamage",
+      "source": "scraped"
+    },
+    "zarokh's_revolt": {
+      "name": "Zarokh's Revolt",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "zenith_i": {
+      "name": "Zenith I",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "zenith_ii": {
+      "name": "Zenith II",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "zerphi's_infamy": {
+      "name": "Zerphi's Infamy",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "poedb": {
+      "name": "PoEDB",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
+    },
+    "patreon": {
+      "name": "patreon",
+      "tier": 1,
+      "tags": [],
+      "level_requirement": 1,
+      "description": "",
+      "source": "scraped"
     }
   }
 }
